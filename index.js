@@ -114,6 +114,9 @@ function optimizely(req, html, callback)
       // get modified html
       optimizeledHtml = window.document.documentElement.innerHTML;
 
+      // clean up after ourselves
+      window.close();
+
       // append images to allow optimizely tracking
       imagesList.forEach(function(src)
       {

@@ -1,6 +1,6 @@
 {
   "name": "optimizely",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Runs optimizely experiments in node using jsdom",
   "main": "index.js",
   "scripts": {
