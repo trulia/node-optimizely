@@ -136,6 +136,10 @@ function optimizely(req, html, callback)
 // Sets optimizely code
 function setOptimizely(code)
 {
+  code = (code || '').replace(/\boptimizelyCode\(\);?/, '');
+  // 2. Make it proper function calls, so fake objects of jsdom won't fail
+  code = code.replace(/(new\s+[\w]+)\b([^\(]|$)/ig, '$1()$2');
+  // save the code
   optimizelyCode = code;
 }
 
