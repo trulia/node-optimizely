@@ -1,10 +1,10 @@
 {
   "name": "optimizely",
-  "version": "0.0.4",
-  "description": "Runs optimizely experiments in node using jsdom",
+  "version": "0.1.0",
+  "description": "Runs optimizely experiments in node using either jsdom or cherio + native node-vm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap ./tests/unit --gc"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,12 @@
   },
   "homepage": "https://github.com/alexindigo/node-optimizely",
   "dependencies": {
-    "jsdom": "^0.10.5"
+    "jsdom": "^0.10.5",
+    "oven": "alexindigo/oven",
+    "cheerio": "^0.16.0"
+  },
+  "devDependencies": {
+    "tap": "^0.4.9",
+    "glob": "^4.0.0"
   }
 }
