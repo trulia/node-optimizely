@@ -31,7 +31,7 @@ function runTests(t, optimizely)
   // prepare env
   optimizely.setOptimizely(optimizelyCode);
 
-  // planning three tests
+  // planning tests
   t.plan(7);
 
   // check that test line doesn't exists in teh original html

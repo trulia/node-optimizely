@@ -61,7 +61,7 @@ function runExperiments(t, optimizely)
 // execute same tests for the different engines
 function runTests(name, t, optimizely)
 {
-  // planning three tests
+  // planning tests
   t.plan(2);
 
   // run the thing
