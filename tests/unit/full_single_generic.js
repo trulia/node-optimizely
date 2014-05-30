@@ -46,7 +46,7 @@ function runTests(t, optimizely)
 
     // check extras
     t.inequal(extra.images, null);
-    t.inequal(extra.images.length, 0);
+    t.equal(extra.images.length, 2);
 
     t.inequal(extra.cookies, null);
     t.inequal(extra.cookies.getCookieHeader().length, 0);

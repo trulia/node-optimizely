@@ -1,10 +1,10 @@
 {
   "name": "optimizely",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Runs optimizely experiments in node using either jsdom or cherio + native node-vm",
   "main": "index.js",
   "scripts": {
-    "test": "tap ./tests/unit --gc"
+    "test": "tap ./tests/unit"
   },
   "repository": {
     "type": "git",
