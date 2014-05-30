@@ -1,0 +1,879 @@
+
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"agent":"js-agent.newrelic.com/nr-411.min.js","beacon":"beacon-3.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"28d67b3a7a","applicationID":"3042509","applicationTime":482.727253,"transactionName":"dh5BRlZFQQsXGH5wNRxJ","queueTime":0,"agentToken":null,"ttGuid":""}; window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
+    <title>Real Estate, Homes for Sale, Apartments for Rent, Local data - Trulia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui">
+    <link href="http://static.trulia-cdn.com/css/beaker/beaker.min.8c3226661a9ae885dd2417bbf794f4e9.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" href="http://static.trulia-cdn.com/images/mobile/beaker/global/bookmark-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://static.trulia-cdn.com/images/mobile/beaker/global/bookmark-icon-iphone-retina.png">
+
+  </head>
+
+  <body class="container">
+    <header class="topNavBar backgroundHighlight txtL">
+      <span id="navToggle" class="topNavBarItem typeReversed iconMenu animate plm prs" data-action="sideNavToggle" data-role="hideUnderSearch"></span>
+      <span class="topNavBarItem branding animate iconTruliaLogo" data-role="hideUnderSearch"></span>
+      <span id="searchToggle" data-action="searchButton" class="topNavBarItem typeReversed iconSearch backgroundHighlight phm"></span>
+      <span id="searchLoadingIndicator" class="overlay topNavBarItem typeReversed backgroundHighlight phm iconLargeSpinnerReversed overlayRight animate animateFast mrxl overlayFadeOut"></span>
+      <span id="perPageAction" class="topNavBarItem hideFully" data-action="perPageAction"></span>
+    </header>
+    <aside id="filtersContainer" class="contentWrapper overlaySlideDown animate animateFast"></aside>
+    <div class="page backgroundBasic">
+
+      <section id="content" class="animate animateFast">
+        <div class="homeIndexView" data-view="home/index" data-fetch_summary="{&quot;nearHomes&quot;:{&quot;collection&quot;:&quot;srp/properties&quot;,&quot;params&quot;:{&quot;path&quot;:&quot;/for_sale/Beverly_Hills,CA&quot;,&quot;page_size&quot;:4}},&quot;openHomes&quot;:{&quot;collection&quot;:&quot;srp/properties&quot;,&quot;params&quot;:{&quot;path&quot;:&quot;/for_sale/Beverly_Hills,CA/t,w_oh/&quot;,&quot;page_size&quot;:4}}}"><div class="line mlm h3 mtm" id="tagline">
+  <span class="typeEmphasize">Your Home for Real Estate.</span>
+</div>
+<div class="homeSearchForm" data-view="home/search_form"><!-- search tyoe tabs -->
+<div id="searchTypeTabs" class="line h3 typeWeightNormal ptm mbn">
+  <div data-tab="for_sale" class="col cols4 txtC pvs mvn backgroundLowlight bts bhs">For Sale</div>
+  <div data-tab="for_rent" class="col cols4 txtC pvs mvn bbs">For Rent</div>
+  <div data-tab="sold" class="col lastCol txtC pvs mvn bbs">Sold</div>
+</div>
+
+<form class="form mtn backgroundLowlight bbs">
+  <input class="searchType" type="hidden" name="search_type" value="for_sale">
+
+  <div class="field mvn pvs mhm">
+    <ul class="fieldGroup">
+
+      <!-- search location -->
+      <li class="mvm">
+        <span class="fieldItem text">
+          <input class="fieldTypeAddress h4" data-action="searchForm" name="q" type="text" placeholder="City, Neighborhood, or Zip"><button class="btn btnPrimary btnSml" data-action="searchButton">Search</button>
+        </span>
+      </li>
+    </ul>
+  </div>
+</form>
+</div>
+
+<div class="mvm">
+
+  	<h3 class="mhm">Open Homes in <span class="noWrap">Beverly Hills, CA</span></h3>
+    <div data-action="openHomesSlider">
+       <div data-view="home/properties_slider" data-collection_name="srp/properties" data-fetch_summary="{&quot;collection&quot;:{&quot;collection&quot;:&quot;srp/properties&quot;,&quot;params&quot;:{&quot;path&quot;:&quot;/for_sale/Beverly_Hills,CA/t,w_oh/&quot;,&quot;page_size&quot;:4}}}"><div class="propertySliderWrap horizontalSliderWrap">
+  <div class="horizontalSlider">
+
+    <div class="mlm mrn slider propertyCard"><div data-view="property/card" data-model_name="srp/property" data-model_id="3156492459" data-fetch_summary="{&quot;model&quot;:{&quot;model&quot;:&quot;srp/property&quot;,&quot;id&quot;:&quot;3156492459&quot;}}"><a data-action="property" href="/property/3156492459-320-S-Rodeo-Dr-Beverly-Hills-CA-90212">
+
+  <div class="propertyCard overlayContainer horizontalSliderWrap backgroundMidnight animate animateFast">
+
+
+
+  <div class="photoSlider horizontalSlider horizontalSliderSnap" data-role="photo_slider">
+
+    <div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/b/e/2/c/picture-uh=6390d6f71da33947873e4f7293858b70-ps=be2c7d52572973901c667548539b3769.jpg);"></div><div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/8/c/9/0/picture-uh=232940d342cfac5caaf9a0ff81692d5c-ps=8c906aae4ae2d81163116b8596d524e.jpg);"></div></div>
+
+  <div class="photoBackground propertyPhoto" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_3/ps.62/b/e/2/c/picture-uh=6390d6f71da33947873e4f7293858b70-ps=be2c7d52572973901c667548539b3769.jpg);"></div>
+
+
+
+
+
+
+     <span data-role="open_house" class="openHouseTime txtC overlayHighlight overlayTop overlayFullWidth h6 typeWeightNormal animate mtn">
+      Sun Jun 1, 2pm to 5pm
+    </span>
+
+
+
+
+
+    <div data-role="description" class="overlayDescription overlayBottom overlayFullWidth h6 typeWeightNormal animate mvn pls ptm pbxs">
+
+
+
+
+
+
+
+
+
+  <span data-role="open_house" class="openHouseTitle badgeSecondary h7 typeCaps typeWeightNormal man">
+    Open House
+  </span>
+
+
+
+
+
+
+
+      <div class="propertyInfo typeContrast typeTruncate">
+
+        <span class="h3 typeEmphasize mvn">
+
+
+
+        $2,795,000
+
+
+
+
+
+
+</span>
+
+
+
+        <div>
+          <span>320 S Rodeo Dr</span>
+
+        </div>
+
+
+        <div>
+          <span class="prs">
+
+
+      4 bd,
+      4 ba
+
+
+</span>
+
+
+  <span class="prs">3,092 sqft</span>
+
+
+
+          <span>Single-Family Home</span>
+        </div>
+      </div>
+
+
+      <div data-action="save_home" class="saveBtnContainer h1 overlay overlayBottom overlayRight phs ptm pbs">
+        <i class="iconHeartEmpty animate" data-role="save_btn"></i>
+      </div>
+
+
+    </div>
+  </div>
+</a>
+
+</div></div><div class="mlm mrn slider propertyCard"><div data-view="property/card" data-model_name="srp/property" data-model_id="3010089455" data-fetch_summary="{&quot;model&quot;:{&quot;model&quot;:&quot;srp/property&quot;,&quot;id&quot;:&quot;3010089455&quot;}}"><a data-action="property" href="/property/3010089455-447-N-Doheny-Dr-103-Beverly-Hills-CA-90210">
+
+  <div class="propertyCard overlayContainer horizontalSliderWrap backgroundMidnight animate animateFast">
+
+
+
+  <div class="photoSlider horizontalSlider horizontalSliderSnap" data-role="photo_slider">
+
+    <div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/1/f/3/8/picture-uh=3076db3a484cfb4545248d8d1dc05aac-ps=1f38e7f4f1e2f85d55231c19676d5c8e.jpg);"></div><div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/8/6/d/4/picture-uh=1d7691829b2c9db9e499fffa182253b7-ps=86d4386bd5f346a4e4ce6fc31d73f48d.jpg);"></div></div>
+
+  <div class="photoBackground propertyPhoto" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_3/ps.62/1/f/3/8/picture-uh=3076db3a484cfb4545248d8d1dc05aac-ps=1f38e7f4f1e2f85d55231c19676d5c8e.jpg);"></div>
+
+
+
+
+
+
+     <span data-role="open_house" class="openHouseTime txtC overlayHighlight overlayTop overlayFullWidth h6 typeWeightNormal animate mtn">
+      Sun Jun 1, 2pm to 5pm
+    </span>
+
+
+
+
+
+    <div data-role="description" class="overlayDescription overlayBottom overlayFullWidth h6 typeWeightNormal animate mvn pls ptm pbxs">
+
+
+
+
+
+
+
+
+
+  <span data-role="open_house" class="openHouseTitle badgeSecondary h7 typeCaps typeWeightNormal man">
+    Open House
+  </span>
+
+
+
+
+
+
+
+      <div class="propertyInfo typeContrast typeTruncate">
+
+        <span class="h3 typeEmphasize mvn">
+
+
+
+        $1,198,000
+
+
+
+
+
+
+</span>
+
+
+
+        <div>
+          <span>447 N Doheny Dr #103</span>
+
+        </div>
+
+
+        <div>
+          <span class="prs">
+
+
+      1 bd,
+      2 ba
+
+
+</span>
+
+
+  <span class="prs">1,521 sqft</span>
+
+
+
+          <span>Condo</span>
+        </div>
+      </div>
+
+
+      <div data-action="save_home" class="saveBtnContainer h1 overlay overlayBottom overlayRight phs ptm pbs">
+        <i class="iconHeartEmpty animate" data-role="save_btn"></i>
+      </div>
+
+
+    </div>
+  </div>
+</a>
+
+</div></div><div class="mlm mrn slider propertyCard"><div data-view="property/card" data-model_name="srp/property" data-model_id="3132223808" data-fetch_summary="{&quot;model&quot;:{&quot;model&quot;:&quot;srp/property&quot;,&quot;id&quot;:&quot;3132223808&quot;}}"><a data-action="property" href="/property/3132223808-9520-Dalegrove-Dr-Beverly-Hills-CA-90210">
+
+  <div class="propertyCard overlayContainer horizontalSliderWrap backgroundMidnight animate animateFast">
+
+
+
+  <div class="photoSlider horizontalSlider horizontalSliderSnap" data-role="photo_slider">
+
+    <div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.61/b/3/e/7/picture-uh=ed54f8bd86704cd5f15834f1a898e4e-ps=b3e71d6ada81edf069761258fdda2e1.jpg);"></div><div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.61/2/e/5/3/picture-uh=83ff3c1a92fca76668de3de9b57b1d4-ps=2e53f0c47c2c4ae60c2be541a7eb087.jpg);"></div></div>
+
+  <div class="photoBackground propertyPhoto" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_3/ps.61/b/3/e/7/picture-uh=ed54f8bd86704cd5f15834f1a898e4e-ps=b3e71d6ada81edf069761258fdda2e1.jpg);"></div>
+
+
+
+
+
+
+     <span data-role="open_house" class="openHouseTime txtC overlayHighlight overlayTop overlayFullWidth h6 typeWeightNormal animate mtn">
+      Sun Jun 1, 2pm to 5pm
+    </span>
+
+
+
+
+
+    <div data-role="description" class="overlayDescription overlayBottom overlayFullWidth h6 typeWeightNormal animate mvn pls ptm pbxs">
+
+
+
+
+
+
+
+
+
+  <span data-role="open_house" class="openHouseTitle badgeSecondary h7 typeCaps typeWeightNormal man">
+    Open House
+  </span>
+
+
+
+
+
+
+
+      <div class="propertyInfo typeContrast typeTruncate">
+
+        <span class="h3 typeEmphasize mvn">
+
+
+
+        $2,085,000
+
+
+
+    <span class="typeCaps h5 typeHighlight">reduced</span>
+
+
+
+
+
+
+</span>
+
+
+
+        <div>
+          <span>9520 Dalegrove Dr</span>
+          <span> - Beverly Hills</span>
+        </div>
+
+
+        <div>
+          <span class="prs">
+
+
+      3 bd,
+      3 ba
+
+
+</span>
+
+
+  <span class="prs">2,066 sqft</span>
+
+
+
+          <span>Single-Family Home</span>
+        </div>
+      </div>
+
+
+      <div data-action="save_home" class="saveBtnContainer h1 overlay overlayBottom overlayRight phs ptm pbs">
+        <i class="iconHeartEmpty animate" data-role="save_btn"></i>
+      </div>
+
+
+    </div>
+  </div>
+</a>
+
+</div></div><div class="mlm mrn slider propertyCard"><div data-view="property/card" data-model_name="srp/property" data-model_id="3099361686" data-fetch_summary="{&quot;model&quot;:{&quot;model&quot;:&quot;srp/property&quot;,&quot;id&quot;:&quot;3099361686&quot;}}"><a data-action="property" href="/property/3099361686-2400-Benedict-Canyon-Dr-Beverly-Hills-CA-90210">
+
+  <div class="propertyCard overlayContainer horizontalSliderWrap backgroundMidnight animate animateFast">
+
+
+
+  <div class="photoSlider horizontalSlider horizontalSliderSnap" data-role="photo_slider">
+
+    <div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.61/d/0/d/6/picture-uh=92203482ca6c6969858b26df70b2c819-ps=d0d653728082943e35f87f5d22d32.jpg);"></div><div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/1/a/1/6/picture-uh=6be2846d31898f2f378f45edaa87a112-ps=1a1695ba9591681e1f6448e05376ce5.jpg);"></div></div>
+
+  <div class="photoBackground propertyPhoto" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_3/ps.61/d/0/d/6/picture-uh=92203482ca6c6969858b26df70b2c819-ps=d0d653728082943e35f87f5d22d32.jpg);"></div>
+
+
+
+
+
+
+     <span data-role="open_house" class="openHouseTime txtC overlayHighlight overlayTop overlayFullWidth h6 typeWeightNormal animate mtn">
+      Sun Jun 1, 2pm to 5pm
+    </span>
+
+
+
+
+
+    <div data-role="description" class="overlayDescription overlayBottom overlayFullWidth h6 typeWeightNormal animate mvn pls ptm pbxs">
+
+
+
+
+
+
+
+
+
+  <span data-role="open_house" class="openHouseTitle badgeSecondary h7 typeCaps typeWeightNormal man">
+    Open House
+  </span>
+
+
+
+
+
+
+
+      <div class="propertyInfo typeContrast typeTruncate">
+
+        <span class="h3 typeEmphasize mvn">
+
+
+
+        $2,295,000
+
+
+
+
+
+
+</span>
+
+
+
+        <div>
+          <span>2400 Benedict Canyon Dr</span>
+          <span> - Beverly Hills</span>
+        </div>
+
+
+        <div>
+          <span class="prs">
+
+
+      6 bd,
+      4 ba
+
+
+</span>
+
+
+  <span class="prs">4,172 sqft</span>
+
+
+
+          <span>Single-Family Home</span>
+        </div>
+      </div>
+
+
+      <div data-action="save_home" class="saveBtnContainer h1 overlay overlayBottom overlayRight phs ptm pbs">
+        <i class="iconHeartEmpty animate" data-role="save_btn"></i>
+      </div>
+
+
+    </div>
+  </div>
+</a>
+
+</div></div>
+  </div>
+</div>
+</div>
+    </div>
+    <hr>
+
+
+
+	<h3 class="mhm">Homes for Sale in <span class="noWrap">Beverly Hills, CA</span></h3>
+  <div data-action="nearbyHomesForSaleSlider">
+   <div data-view="home/properties_slider" data-collection_name="srp/properties" data-fetch_summary="{&quot;collection&quot;:{&quot;collection&quot;:&quot;srp/properties&quot;,&quot;params&quot;:{&quot;path&quot;:&quot;/for_sale/Beverly_Hills,CA&quot;,&quot;page_size&quot;:4}}}"><div class="propertySliderWrap horizontalSliderWrap">
+  <div class="horizontalSlider">
+
+    <div class="mlm mrn slider propertyCard"><div data-view="property/card" data-model_name="srp/property" data-model_id="1047467243" data-fetch_summary="{&quot;model&quot;:{&quot;model&quot;:&quot;srp/property&quot;,&quot;id&quot;:&quot;1047467243&quot;}}"><a data-action="property" href="/property/1047467243-12000-Crest-Ct-Beverly-Hills-CA-90210">
+
+  <div class="propertyCard overlayContainer horizontalSliderWrap backgroundMidnight animate animateFast">
+
+
+
+  <div class="photoSlider horizontalSlider horizontalSliderSnap" data-role="photo_slider">
+
+    <div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/1/5/1/7/picture-uh=4dc49c7b13ca0813d8848c88ce5639-ps=151708f46775f6aea34cae7024c730.jpg);"></div><div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/8/b/b/d/picture-uh=ff23541179a6aeec826b581cd972bc-ps=8bbdd9a39e172b084cfa76ddeb2bbf.jpg);"></div></div>
+
+  <div class="photoBackground propertyPhoto" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_3/ps.62/1/5/1/7/picture-uh=4dc49c7b13ca0813d8848c88ce5639-ps=151708f46775f6aea34cae7024c730.jpg);"></div>
+
+
+
+
+
+
+
+
+
+
+    <div data-role="description" class="overlayDescription overlayBottom overlayFullWidth h6 typeWeightNormal animate mvn pls ptm pbxs">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="propertyInfo typeContrast typeTruncate">
+
+        <span class="h3 typeEmphasize mvn">
+
+
+
+        $6,595,000
+
+
+
+
+
+
+</span>
+
+
+
+        <div>
+          <span>12000 Crest Ct</span>
+          <span> - Beverly Hills</span>
+        </div>
+
+
+        <div>
+          <span class="prs">
+
+
+      6 bd,
+      6 ba
+
+
+</span>
+
+
+  <span class="prs">7,013 sqft</span>
+
+
+
+          <span>Single-Family Home</span>
+        </div>
+      </div>
+
+
+      <div data-action="save_home" class="saveBtnContainer h1 overlay overlayBottom overlayRight phs ptm pbs">
+        <i class="iconHeartEmpty animate" data-role="save_btn"></i>
+      </div>
+
+
+    </div>
+  </div>
+</a>
+
+</div></div><div class="mlm mrn slider propertyCard"><div data-view="property/card" data-model_name="srp/property" data-model_id="3044280730" data-fetch_summary="{&quot;model&quot;:{&quot;model&quot;:&quot;srp/property&quot;,&quot;id&quot;:&quot;3044280730&quot;}}"><a data-action="property" href="/property/3044280730-1710-Ferrari-Dr-Beverly-Hills-CA-90210">
+
+  <div class="propertyCard overlayContainer horizontalSliderWrap backgroundMidnight animate animateFast">
+
+
+
+  <div class="photoSlider horizontalSlider horizontalSliderSnap" data-role="photo_slider">
+
+    <div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/8/6/c/8/picture-uh=cd73f427424ddb8966db9f5896b96f7-ps=86c864ca54a0e534a7f4ce9218fee.jpg);"></div><div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/2/f/3/7/picture-uh=14aba85a2f58e2515c053f3bb2cc-ps=2f37fa42ae191f34994bfdaae18ca4bc.jpg);"></div></div>
+
+  <div class="photoBackground propertyPhoto" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_3/ps.62/8/6/c/8/picture-uh=cd73f427424ddb8966db9f5896b96f7-ps=86c864ca54a0e534a7f4ce9218fee.jpg);"></div>
+
+
+
+
+
+
+
+
+
+
+    <div data-role="description" class="overlayDescription overlayBottom overlayFullWidth h6 typeWeightNormal animate mvn pls ptm pbxs">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="propertyInfo typeContrast typeTruncate">
+
+        <span class="h3 typeEmphasize mvn">
+
+
+
+        $2,295,000
+
+
+
+
+
+
+</span>
+
+
+
+        <div>
+          <span>1710 Ferrari Dr</span>
+          <span> - Beverly Hills</span>
+        </div>
+
+
+        <div>
+          <span class="prs">
+
+
+      4 bd,
+      4 ba
+
+
+</span>
+
+
+
+
+          <span>Single-Family Home</span>
+        </div>
+      </div>
+
+
+      <div data-action="save_home" class="saveBtnContainer h1 overlay overlayBottom overlayRight phs ptm pbs">
+        <i class="iconHeartEmpty animate" data-role="save_btn"></i>
+      </div>
+
+
+    </div>
+  </div>
+</a>
+
+</div></div><div class="mlm mrn slider propertyCard"><div data-view="property/card" data-model_name="srp/property" data-model_id="1093975887" data-fetch_summary="{&quot;model&quot;:{&quot;model&quot;:&quot;srp/property&quot;,&quot;id&quot;:&quot;1093975887&quot;}}"><a data-action="property" href="/property/1093975887-225-N-Canon-Dr-8A-Beverly-Hills-CA-90210">
+
+  <div class="propertyCard overlayContainer horizontalSliderWrap backgroundMidnight animate animateFast">
+
+
+
+  <div class="photoSlider horizontalSlider horizontalSliderSnap" data-role="photo_slider">
+
+    <div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/4/c/7/1/picture-uh=e82ab1d3d9bbff259e29327b4cdf93-ps=4c71a8ff6c21ac77698b23e97fca6946.jpg);"></div><div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/a/d/1/a/picture-uh=28afdf6d38b221b837fa1419956042-ps=ad1a3e2f7b69b02b5c63665166b8a853.jpg);"></div></div>
+
+  <div class="photoBackground propertyPhoto" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_3/ps.62/4/c/7/1/picture-uh=e82ab1d3d9bbff259e29327b4cdf93-ps=4c71a8ff6c21ac77698b23e97fca6946.jpg);"></div>
+
+
+
+
+
+
+
+
+
+
+    <div data-role="description" class="overlayDescription overlayBottom overlayFullWidth h6 typeWeightNormal animate mvn pls ptm pbxs">
+
+
+
+
+
+  <span class="badgeSecondary h7 typeCaps typeWeightNormal man">New</span>
+
+
+
+
+
+
+
+
+
+
+
+      <div class="propertyInfo typeContrast typeTruncate">
+
+        <span class="h3 typeEmphasize mvn">
+
+
+
+        $12,800,000
+
+
+
+
+
+
+</span>
+
+
+
+        <div>
+          <span>225 N Canon Dr #8A</span>
+
+        </div>
+
+
+        <div>
+          <span class="prs">
+
+
+      3 bd,
+      4 ba
+
+
+</span>
+
+
+  <span class="prs">3,820 sqft</span>
+
+
+
+          <span>Condo</span>
+        </div>
+      </div>
+
+
+      <div data-action="save_home" class="saveBtnContainer h1 overlay overlayBottom overlayRight phs ptm pbs">
+        <i class="iconHeartEmpty animate" data-role="save_btn"></i>
+      </div>
+
+
+    </div>
+  </div>
+</a>
+
+</div></div><div class="mlm mrn slider propertyCard"><div data-view="property/card" data-model_name="srp/property" data-model_id="3156492459" data-fetch_summary="{&quot;model&quot;:{&quot;model&quot;:&quot;srp/property&quot;,&quot;id&quot;:&quot;3156492459&quot;}}"><a data-action="property" href="/property/3156492459-320-S-Rodeo-Dr-Beverly-Hills-CA-90212">
+
+  <div class="propertyCard overlayContainer horizontalSliderWrap backgroundMidnight animate animateFast">
+
+
+
+  <div class="photoSlider horizontalSlider horizontalSliderSnap" data-role="photo_slider">
+
+    <div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/b/e/2/c/picture-uh=6390d6f71da33947873e4f7293858b70-ps=be2c7d52572973901c667548539b3769.jpg);"></div><div class="propertyPhoto slider animate animateFast" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_4/ps.62/8/c/9/0/picture-uh=232940d342cfac5caaf9a0ff81692d5c-ps=8c906aae4ae2d81163116b8596d524e.jpg);"></div></div>
+
+  <div class="photoBackground propertyPhoto" style="background-image: url(http://thumbs.trulia-cdn.com/pictures/thumbs_3/ps.62/b/e/2/c/picture-uh=6390d6f71da33947873e4f7293858b70-ps=be2c7d52572973901c667548539b3769.jpg);"></div>
+
+
+
+
+
+
+     <span data-role="open_house" class="openHouseTime txtC overlayHighlight overlayTop overlayFullWidth h6 typeWeightNormal animate mtn">
+      Sun Jun 1, 2pm to 5pm
+    </span>
+
+
+
+
+
+    <div data-role="description" class="overlayDescription overlayBottom overlayFullWidth h6 typeWeightNormal animate mvn pls ptm pbxs">
+
+
+
+
+
+
+
+
+
+  <span data-role="open_house" class="openHouseTitle badgeSecondary h7 typeCaps typeWeightNormal man">
+    Open House
+  </span>
+
+
+
+
+
+
+
+      <div class="propertyInfo typeContrast typeTruncate">
+
+        <span class="h3 typeEmphasize mvn">
+
+
+
+        $2,795,000
+
+
+
+
+
+
+</span>
+
+
+
+        <div>
+          <span>320 S Rodeo Dr</span>
+
+        </div>
+
+
+        <div>
+          <span class="prs">
+
+
+      4 bd,
+      4 ba
+
+
+</span>
+
+
+  <span class="prs">3,092 sqft</span>
+
+
+
+          <span>Single-Family Home</span>
+        </div>
+      </div>
+
+
+      <div data-action="save_home" class="saveBtnContainer h1 overlay overlayBottom overlayRight phs ptm pbs">
+        <i class="iconHeartEmpty animate" data-role="save_btn"></i>
+      </div>
+
+
+    </div>
+  </div>
+</a>
+
+</div></div>
+  </div>
+</div>
+</div>
+  </div>
+
+
+
+</div>
+</div>
+      </section>
+      <footer class="pbl"></footer>
+    </div>
+    <section id="sideContent">
+    </section>
+
+    <aside id="interstitial" class="overlayContainer typeReversed txtC zIndexPageOverlay animate animateFast overlaySlideRight"></aside>
+
+    <div id="messenger" class="overlayLowlight overlayFadeOut hide txtC animate pvm zIndexPageOverlay">
+  <span class="message h5 typeWeightNormal animate"></span>
+</div>
+
+    <div id="suckerfish"></div>
+    <div id="pageCover"></div>
+    <div id="modal" class="zIndexPageOverlay"></div>
+
+    <nav class="sideNav backgroundInverse"></nav>
+    <aside class="sidePanel loginPanel"></aside>
+    <aside class="sidePanel signinPanel"></aside>
+    <div class="spinnerWrapper zIndexPageOverlay">
+      <div class="spinner backgroundInverse">
+            <div class="rect1 backgroundHighlight"></div>
+            <div class="rect2 backgroundHighlight"></div>
+            <div class="rect3 backgroundHighlight"></div>
+            <div class="rect4 backgroundHighlight"></div>
+            <div class="rect5 backgroundHighlight"></div>
+      </div>
+    </div>
+    <script>
+
+    var trulia = {};
+    trulia.appData = {"sessionStoreType":"memcached","omnitureOptimizelyEvar":69,"fbAppId":"118129464922652","fbAuthRedirectUri":"/auth?return=","fbAuthUrl":"https://www.facebook.com/dialog/oauth?scope=email&client_id=&redirect_uri=","oldMobileHost":"http://mstage.trulia.com","trackingPixel":"http://images.trulia.com/trackingPixel.gif","userStatusTypes":{"BUYER":"Home Buyer","BUYER_AND_SELLER":"Both Buyer And Seller","HOME_OWNER":"Home Owner","OTHER":"Other","PRO":"Real Estate Pro","RENTER":"Renter","SELLER":"Home Seller"},"static":{"thumbs":"http://thumbs.trulia-cdn.com/pictures/","images":"http://static.trulia-cdn.com/","siteImages":"http://static.trulia-cdn.com/images/mobile/beaker/","agent":"http://static.trulia-cdn.com/userimg/","js":{"prefix":"http://static.trulia-cdn.com/javascript/beaker/","common":"common.8a47d4dae9a83163427e67f5f3c72cda.js","_mapping":{"compiledTemplates.f59b9483c858dca014d51e71537f4289":["app/templates/compiledTemplates"],"property.260adfc347f95114c092e1d67fc130b6":["app/models/pdp/modules/mortgage","app/models/pdp/modules/price_history","app/models/pdp/modules/property_tax","app/models/pdp/modules/public_records","app/models/pdp/modules/sales_trend","app/models/pdp/pdp","app/views/pdp/map","app/views/pdp/modules/lead_form","app/views/pdp/modules/mortgage","app/views/pdp/modules/photo_plug","app/views/pdp/modules/price_history","app/views/pdp/modules/property_tax","app/views/pdp/modules/public_records","app/views/pdp/modules/sales_trend","app/views/pdp/pdp","app/views/pdp/photos","app/views/pdp/request_info_button","app/views/pdp/save_property","app/views/pdp/share_blurb","app/views/pdp/share_modal","app/views/pdp/suckerfish"],"search.cda65e1c3eefa9bb3b611d42f15f7552":["app/views/home/action_item","app/views/home/index","app/views/home/properties_list","app/views/home/properties_slider","app/views/home/search_form","app/views/home/search_type","app/views/home/suckerfish","app/collections/srp/properties","app/collections/srp/tma/listings","app/collections/srp/tma/recommendations","app/models/srp/property","app/models/srp/property_search","app/models/srp/suckerfish","app/models/srp/tma","app/models/srp/tma/form","app/models/srp/tma/lead_sender","app/models/srp/tma/recommendation","app/models/srp/view","app/views/srp/list","app/views/srp/list/property_card","app/views/srp/list/results","app/views/srp/list/suckerfish","app/views/srp/map","app/views/srp/map/marker_collection","app/views/srp/map/property_card","app/views/srp/map/suckerfish","app/views/srp/no_results","app/views/srp/shared/filter_bar","app/views/srp/shared/sort_modal","app/views/srp/shared/suckerfish","app/views/srp/shared/suckerfish/save_search","app/views/srp/shared/tma","app/views/srp/shared/tma/contact","app/views/srp/shared/tma/form","app/views/srp/shared/tma/listings","app/views/srp/shared/tma/panel","app/views/srp/shared/tma/property_card","app/views/srp/shared/tma/recommendation","app/views/srp/shared/tma/recommendations"]}},"css":{"prefix":"http://static.trulia-cdn.com/css/beaker/","base":"beaker.min.8c3226661a9ae885dd2417bbf794f4e9.css"}},"interstitialData":{"dismissText":"Continue to mobile site","dontMissOutTitle":"Don't miss out!","description":"Get alerts for the newest homes and rentals near your current location","downloadBtnText":"Download free app","openAppBtnText":"Open in app","phoneImgIOS":{"default":"nearby-homes-interstitial-sillo-iphone-640.png","superAd":"nearby-homes-interstitial-sillo-iphone-640.png"},"phoneImgAndroid":{"default":"nearby-homes-interstitial-sillo-android-640.png","superAd":"nearby-homes-interstitial-sillo-android-640.png"},"defaultInterstetialKey":"default","downloadLinkIOS":"http://53778.api-02.com/serve?action=click&publisher_id=53778&site_id=22948&offer_id=252920&advertiser_sub_campaign=Nearby","downloadLinkAndroid":"http://53780.api-02.com/serve?action=click&publisher_id=53780&site_id=17314&offer_id=249772&advertiser_sub_campaign=Nearby","frequency":"1800000","autoOpenAppTime":"2592000000","defaultDeepLink":"TruliaSRPForSale://"},"cssFile":"/beaker.css","sessionStoreConfig":{"hosts":["127.0.0.1:11211"]},"buildVersion":"704e83d","apiPath":"/api","loading":false,"templateAdapter":"rendr-handlebars","csrfToken":"5WjJHGbkq3x/QZtQiFRb29gIEYlIWXAqbr1mE=","env":"staging","WhenFirstWeMet":"NaNNaNNaN","youAre":"140211e240d80b699076e7421467a375b156db","hostname":"beakerstage","useragent":{"isMobile":true,"isiPad":false,"isiPod":false,"isiPhone":true,"isAndroid":false,"isBlackberry":false,"isOpera":false,"isIE":false,"isIECompatibilityMode":false,"isSafari":true,"isFirefox":false,"isWebkit":false,"isChrome":false,"isKonqueror":false,"isOmniWeb":false,"isSeaMonkey":false,"isFlock":false,"isAmaya":false,"isEpiphany":false,"isDesktop":false,"isWindows":false,"isLinux":false,"isLinux64":false,"isMac":true,"isBada":false,"isSamsung":false,"isRaspberry":false,"isBot":false,"isCurl":false,"isAndroidTablet":false,"isWinJs":false,"Browser":"Safari","Version":"7.0","OS":"OS X","Platform":"iPhone","GeoIP":{},"source":"Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53"},"userSessionId":"N6AgAq1Cn8X72uA2EeC84u8AUserSession","fullSiteUrl":"/","session":{"ipLocation":{"city":"New York","state":"NY","dma":"501","zip":"10004","lat":40.68880081176758,"long":-74.02030181884766,"id":"New York,NY","county":""},"currentLocation":{"id":"90210_zip","city":"Beverly Hills","state":"CA","zipCode":"94111","path":"for_sale/90210_zip","county":"Los Angeles","zip":"90210","neighborhood":"","neighborhoodId":"","xy":"","zm":"","dma":"31"},"currentSearch":{"search_type":"for_sale","q":"Beverly Hills, CA","baths":"","beds":"","min_price":"","max_price":"","sort":"","page":"1","id":"cache"},"srpView":"srp/list","userSessionId":"N6AgAq1Cn8X72uA2EeC84u8AUserSession","access_token":"","refresh_token":"","user":"","featureBucket":{"webFonts":true}},"pageTitle":"Real Estate, Homes for Sale, Apartments for Rent, Local data - Trulia"};
+    trulia.bootstrappedData = {"nearHomes":{"summary":{"collection":"srp/properties","ids":["1047467243","3044280730","1093975887","3156492459"],"params":{"path":"/for_sale/Beverly_Hills,CA","page_size":4},"meta":{}},"data":[{"actions":[],"adCampaigns":null,"address":{"allNoZip":"12000 Crest Ct, Beverly Hills CA","components":{"apartmentNumber":null,"city":"Beverly Hills","cityDisplay":"Beverly Hills","county":"LOS ANGELES","countyDisplay":"Los Angeles","state":"CA","stateCode":"CA","street":"Crest Ct","streetDisplay":"Crest Ct","zipCode":"90210"},"delivery":"12000 Crest Court","display":"12000 Crest Ct, Beverly Hills, CA 90210","isAddressDisclosed":true,"partial":"12000 Crest Ct","seoDisplay":"12000 Crest Court, Beverly Hills CA","seoUrl":"12000-Crest-Ct-Beverly-Hills-CA-90210","short":"12000 Crest Ct"},"details":{"architecturalStyle":null,"architectureStyle":null,"bathrooms":6,"bedrooms":6,"buildingHasConcierge":null,"buildingUnitCount":null,"dateListed":null,"daysOnMarket":null,"daysOnTrulia":8,"description":"Chefs kitchen with Sub-Zero and Wolf appliances and gorgeous Calcutta marble opens to outside entertaining patio. Outdoor grilling pavilion with glass fire-pit, pool, spa, and vast grassy yard offer true privacy. Formal dining, living room and den with fireplace. Motor court. Five bedroom suites up, and staff or gym downstairs; theres a separate wing for children or guests. Spacious master with a fireplace, sitting room and French doors opening out over pool and peaceful views. Large sumptuous master baths with dual quarters and walk-in closets. Rarely does an estate of this size and quality come along.","exteriorType":null,"fees":{"amounts":null,"types":null},"floorCovering":null,"floorCoverings":null,"hasAirConditioning":null,"hasAttic":null,"hasBalcony":null,"hasBarbequeArea":null,"hasBasement":null,"hasCableSatellite":null,"hasCeilingFan":null,"hasCourtyard":null,"hasDeck":null,"hasDisabledAccess":null,"hasDishwasher":null,"hasDisposal":null,"hasDock":null,"hasDoorman":null,"hasDoublepaneWindows":null,"hasDryer":null,"hasFireplace":true,"hasGarage":true,"hasGarden":null,"hasGatedEntry":null,"hasGreenhouse":null,"hasHandrails":null,"hasHotTubSpa":null,"hasIntercom":null,"hasJettedBathTub":null,"hasLawn":null,"hasMicrowave":null,"hasMotherInLaw":null,"hasPatio":null,"hasPond":null,"hasPool":true,"hasPorch":null,"hasPrivateBalcony":null,"hasPrivatePatio":null,"hasRefrigerator":null,"hasRvParking":null,"hasSauna":null,"hasSecuritySystem":true,"hasSkylight":null,"hasSportscourt":null,"hasSprinklerSystem":null,"hasStreetview":null,"hasTerrace":null,"hasVaultedCeiling":null,"hasWasher":null,"hasWasherDryerHookup":null,"hasWetBar":null,"hasWindowCoverings":null,"heatingFuel":null,"heatingSystems":null,"isFeatured":true,"isForeclosure":false,"isFurnished":null,"isNewConstruction":null,"isNewListing":false,"isWaterFront":null,"listingType":"RESALE","lotSize":null,"lotSizeDisplay":null,"mortgage":null,"numParkingSpaces":null,"parkingTypes":null,"partialBathrooms":1,"pets":{"all":null,"petDeposit":null,"petRent":null,"petRestriction":null,"petsAllowed":null},"planPriceFrom":null,"planPriceTo":null,"price":6595000,"propertyDef":"","propertyPronoun":"home","propertyTitle":"For Sale","propertyType":"Single-Family Home","rangeType":null,"rentalListingType":null,"roofType":null,"roomCount":null,"school":null,"securityDeposit":null,"siteName":"sothebyshomes.com","siteUrl":"www.sothebyshomes.com","squareFootage":"7,013","viewType":null,"yearBuilt":null},"fees":{"amounts":null,"types":null},"foreclosure":{"status":null},"isActiveForRent":false,"isActiveForSale":true,"isForRent":false,"isForSale":true,"isNrt":true,"isOffMarket":false,"isSold":false,"isUnknown":false,"isWithdrawn":false,"keywords":{"list":["marble","grassy yard","yard","formal dining","spacious","quarters","pool","living room","sitting room","gym","fireplace","den","sub zero","spa","walk in","french doors","privacy","patio","walk in closets","fire pit","entertaining","chefs kitchen","wolf","grassy","views"]},"lastSale":{"canDisplay":true,"date":null,"isRecent":false,"price":null},"leadType":"lead","listing":{"agent":{"email":"lajulz@hotmail.com","isFeatured":false,"metadata":{"created":null,"id":"1711791","links":[],"modified":null},"name":"Juliet Zacarias","phone":null,"photo":"http://static.trulia-cdn.com/userimg/user_m_00_s.gif","profileUrl":"/profile/juliet-zacarias-agent-los-angeles-ca-1711791/","userId":"1711791"},"broker":{"email":"lajulz@hotmail.com","isFeatured":true,"logo":"http://logos.trulia-cdn.com/pictures/logos/listings/10352208.gif?v=20130416154702","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Sotheby's International Realty","phone":"(310) 205-0305"},"feedId":1004,"listingId":"3157120082","office":{"email":"patricia.hodson@sothebyshomes.com","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Sunset Strip Brokerage","phone":"3102050305"},"providerListingId":"3681003","providerName":"sothebyshomes.com","providerUrl":"/transfer.php?s_id=10352208&p_id=1047467243&t_id=fdpl1&feat=1&ptype=for_sale&plid=3157120082","siteId":null,"siteIdAlt":"10352208"},"location":{"latitude":34.123928,"longitude":-118.399864},"locationId":76159,"metadata":{"created":1401419752,"deepLink":"TruliaPDPForSale://?urlHash=aWQ9MTA0NzQ2NzI0MyZpZHQ9Zm9yK3NhbGUmc3Q9Q0EmY3k9QmV2ZXJseStIaWxscw%3D%3D","id":"1047467243","links":[{"href":"/properties/for_sale/CA/1047467243","rel":"self","rel_href":"/relations/self","type":"application/json; name=property_details_for_sale"}],"modified":1401346800,"stateCode":"CA","type":"for_sale"},"modules":[{"href":"/properties/for_sale/CA/1047467243/lead","rel":"module","rel_href":"/relations/module","type":"application/json; name=lead"},{"href":"/properties/for_sale/CA/1047467243/mortgage","rel":"module","rel_href":"/relations/module","type":"application/json; name=mortgage"},{"href":"/properties/for_sale/CA/1047467243/price_history","rel":"module","rel_href":"/relations/module","type":"application/json; name=price_history"},{"href":"/properties/for_sale/CA/1047467243/public_records","rel":"module","rel_href":"/relations/module","type":"application/json; name=public_records"},{"href":"/properties/for_sale/CA/1047467243/tax","rel":"module","rel_href":"/relations/module","type":"application/json; name=tax"},{"href":"/properties/for_sale/CA/1047467243/sales_trends","rel":"module","rel_href":"/relations/module","type":"application/json; name=sales_trends"}],"neighborhood":{"metadata":{"created":null,"id":"7197","links":[],"modified":null},"name":"Beverly Hills"},"openHouses":[],"pdpURL":"/property/1047467243-12000-Crest-Ct-Beverly-Hills-CA-90210","photos":{"all":["ps.62/1/5/1/7/picture-uh=4dc49c7b13ca0813d8848c88ce5639-ps=151708f46775f6aea34cae7024c730.jpg:31","ps.62/8/b/b/d/picture-uh=ff23541179a6aeec826b581cd972bc-ps=8bbdd9a39e172b084cfa76ddeb2bbf.jpg:31","ps.62/d/b/e/f/picture-uh=a9a8ddd518c8e5bd2c43765070d45aac-ps=dbef2ac3624bbffd1c9f9ce1373b3345.jpg:31","ps.62/4/6/c/f/picture-uh=4a61dadb7142ccddb2f1998998e21c-ps=46cfd470b834892d30b9f9ee3f70f619.jpg:31","ps.62/e/9/a/f/picture-uh=9feb655eaf65b8cd3d3748451fdcdc6-ps=e9af317f80b61c4ceaeae383972961.jpg:31","ps.62/2/5/4/d/picture-uh=524497d1633c92d321eb27c06fed74da-ps=254ddec4b5f6c6233494de6a2a3c5faa.jpg:31","ps.62/9/2/6/b/picture-uh=55e6bfa7268a56b2acf5f25ff209e52-ps=926b8aa433c579291b6dd799ee50764.jpg:31","ps.62/2/0/7/9/picture-uh=8ac8f82285a97c8366f48bab2f12cb5a-ps=2079536e4d2d9044c5de7ca993eaa815.jpg:31","ps.62/9/b/3/9/picture-uh=5c51a36db5ce73bd44384d666cbe17-ps=9b39e395da44fc1d401d93155f71f53c.jpg:31","ps.62/1/6/3/d/picture-uh=e461d48446fd2362d72758992ea9143c-ps=163db37c63eabef426418baca94f4f21.jpg:31","ps.62/4/7/c/0/picture-uh=a3aaa42dc37ba5b8b7dcfd01edb10e8-ps=47c02a78e55a4d3b6f48b321e2e8c2d0.jpg:31"],"primaryMain":"ps.62/1/5/1/7/picture-uh=4dc49c7b13ca0813d8848c88ce5639-ps=151708f46775f6aea34cae7024c730.jpg","primaryThumb":null,"realtyTracURL":null,"streetView":"http://maps.googleapis.com/maps/api/streetview?client=gme-truliainc&size=600x400&sensor=false&location=34.123928%2C-118.399864&signature=hTiCUay-d_pc2W_LpMNmtoIZ9hg="},"priceChange":{"amount":null,"hasChange":null,"hasReduction":null},"propertyHash":"4fdb31d8791d6fffaca7bc42a9a253b","rentalCommunity":{"amenities":null,"features":{"hasAC":null,"hasAdditionalStorage":null,"hasClubHouse":null,"hasDryer":null,"hasFitnessCenter":null,"hasMicrowave":null,"hasPool":null,"hasView":null,"hasWasher":null},"logoPartnerSolo":null,"maxFloorplanSearchBedrooms":null,"maxFloorplanSearchPrice":null,"minFloorplanSearchBedrooms":null,"minFloorplanSearchPrice":null},"saleType":null,"status":"for_sale","statusDisplay":"For Sale","statusSecondaryText":"resale","valuation":{"canDisplay":true,"price":null},"id":"1047467243"},{"actions":[],"adCampaigns":null,"address":{"allNoZip":"1710 Ferrari Dr, Beverly Hills CA","components":{"apartmentNumber":null,"city":"Beverly Hills","cityDisplay":"Beverly Hills","county":"LOS ANGELES","countyDisplay":"Los Angeles","state":"CA","stateCode":"CA","street":"Ferrari Dr","streetDisplay":"Ferrari Dr","zipCode":"90210"},"delivery":"1710 Ferrari Drive","display":"1710 Ferrari Dr, Beverly Hills, CA 90210","isAddressDisclosed":true,"partial":"1710 Ferrari Dr","seoDisplay":"1710 Ferrari Drive, Beverly Hills CA","seoUrl":"1710-Ferrari-Dr-Beverly-Hills-CA-90210","short":"1710 Ferrari Dr"},"details":{"architecturalStyle":null,"architectureStyle":"Mediterranean","bathrooms":4,"bedrooms":4,"buildingHasConcierge":null,"buildingUnitCount":null,"dateListed":"2014-05-19","daysOnMarket":"11 days","daysOnTrulia":10,"description":"Located in one of BHPO's most desirable neighborhoods just minutes from Sunset Bl. This tranquil and private estate is situated on over half an acre and set far back from the street in a spectacular setting surrounded by mature landscaping and stunning canyon views. A long, gated tree-lined driveway leads to a motor court and the dramatic entry of this spacious Mediterranean estate. A sky-lit entry opens to an oversized living room w/ frplc and vaulted ceiling. A state-of-the-art kitchen features Miele stainless steel appliances, a Sub-Zero refrigerator and European cabinetry. A formal dining room, bonus/family room and one bed/bath are featured on the 1st level. The 2nd level includes 2 bedrooms plus a wonderful master suite w/ vaulted ceiling, frplc and terrace. Additional features include H/W floors, beautifully crafted wood doors thru-out, security system, sauna and French doors which open from most downstairs rooms to the beautiful grounds and pool which are perfect for entertaining.","exteriorType":null,"fees":{"amounts":null,"types":null},"floorCovering":null,"floorCoverings":null,"hasAirConditioning":null,"hasAttic":null,"hasBalcony":null,"hasBarbequeArea":null,"hasBasement":null,"hasCableSatellite":null,"hasCeilingFan":null,"hasCourtyard":null,"hasDeck":null,"hasDisabledAccess":null,"hasDishwasher":null,"hasDisposal":null,"hasDock":null,"hasDoorman":null,"hasDoublepaneWindows":null,"hasDryer":null,"hasFireplace":true,"hasGarage":null,"hasGarden":null,"hasGatedEntry":null,"hasGreenhouse":null,"hasHandrails":null,"hasHotTubSpa":null,"hasIntercom":null,"hasJettedBathTub":null,"hasLawn":null,"hasMicrowave":null,"hasMotherInLaw":null,"hasPatio":null,"hasPond":null,"hasPool":null,"hasPorch":null,"hasPrivateBalcony":null,"hasPrivatePatio":null,"hasRefrigerator":null,"hasRvParking":null,"hasSauna":null,"hasSecuritySystem":null,"hasSkylight":null,"hasSportscourt":null,"hasSprinklerSystem":null,"hasStreetview":null,"hasTerrace":null,"hasVaultedCeiling":null,"hasWasher":null,"hasWasherDryerHookup":null,"hasWetBar":null,"hasWindowCoverings":null,"heatingFuel":null,"heatingSystems":null,"isFeatured":true,"isForeclosure":false,"isFurnished":null,"isNewConstruction":null,"isNewListing":false,"isWaterFront":null,"listingType":"RESALE","lotSize":null,"lotSizeDisplay":null,"mortgage":null,"numParkingSpaces":null,"parkingTypes":null,"partialBathrooms":0,"pets":{"all":null,"petDeposit":null,"petRent":null,"petRestriction":null,"petsAllowed":null},"planPriceFrom":null,"planPriceTo":null,"price":2295000,"propertyDef":"","propertyPronoun":"home","propertyTitle":"For Sale","propertyType":"Single-Family Home","rangeType":null,"rentalListingType":null,"roofType":null,"roomCount":null,"school":null,"securityDeposit":null,"siteName":"californiamoves.com","siteUrl":"www.californiamoves.com","squareFootage":"","viewType":null,"yearBuilt":null},"fees":{"amounts":null,"types":null},"foreclosure":{"status":null},"isActiveForRent":false,"isActiveForSale":true,"isForRent":false,"isForSale":true,"isNrt":true,"isOffMarket":false,"isSold":false,"isUnknown":false,"isWithdrawn":false,"keywords":{"list":["dining room","gated","driveway","security system","acre","family room","formal dining","private","spacious","pool","mediterranean","living room","miele","vaulted ceiling","master suite","sub zero","formal dining room","vaulted","french doors","landscaping","sauna","terrace","stainless steel appliances","entertaining","sunset","views","bonus","stainless","stainless steel"]},"lastSale":{"canDisplay":true,"date":null,"isRecent":false,"price":null},"leadType":"lead","listing":{"agent":{"email":"joyce@joycerey.com","isFeatured":false,"metadata":{"created":null,"id":"82535","links":[],"modified":null},"name":"Joyce Rey","phone":"(310) 285-7529","photo":"http://static.trulia-cdn.com/userimg/user_m_00_s.gif","profileUrl":"/profile/joyce-rey-agent-beverly-hills-ca-82535/","userId":"82535"},"broker":{"email":"joyce@joycerey.com","isFeatured":true,"logo":"http://logos.trulia-cdn.com/pictures/logos/listings/10338446.gif?v=20130416152012","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Joyce Rey","phone":"(310) 285-7529"},"feedId":1004,"listingId":"3156325525","office":{"email":"900624.lead@cendant.leadrouter.com","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Beverly Hills South","phone":"3102733113"},"providerListingId":"3673495","providerName":"californiamoves.com","providerUrl":"/transfer.php?s_id=10338446&p_id=3044280730&t_id=fdpl1&feat=1&ptype=for_sale&plid=3156325525","siteId":null,"siteIdAlt":"10338446"},"location":{"latitude":34.102165,"longitude":-118.42078},"locationId":76159,"metadata":{"created":1400643914,"deepLink":"TruliaPDPForSale://?urlHash=aWQ9MzA0NDI4MDczMCZpZHQ9Zm9yK3NhbGUmc3Q9Q0EmY3k9QmV2ZXJseStIaWxscw%3D%3D","id":"3044280730","links":[{"href":"/properties/for_sale/CA/3044280730","rel":"self","rel_href":"/relations/self","type":"application/json; name=property_details_for_sale"}],"modified":1401174000,"stateCode":"CA","type":"for_sale"},"modules":[{"href":"/properties/for_sale/CA/3044280730/lead","rel":"module","rel_href":"/relations/module","type":"application/json; name=lead"},{"href":"/properties/for_sale/CA/3044280730/mortgage","rel":"module","rel_href":"/relations/module","type":"application/json; name=mortgage"},{"href":"/properties/for_sale/CA/3044280730/price_history","rel":"module","rel_href":"/relations/module","type":"application/json; name=price_history"},{"href":"/properties/for_sale/CA/3044280730/public_records","rel":"module","rel_href":"/relations/module","type":"application/json; name=public_records"},{"href":"/properties/for_sale/CA/3044280730/tax","rel":"module","rel_href":"/relations/module","type":"application/json; name=tax"},{"href":"/properties/for_sale/CA/3044280730/sales_trends","rel":"module","rel_href":"/relations/module","type":"application/json; name=sales_trends"}],"neighborhood":{"metadata":{"created":null,"id":"7197","links":[],"modified":null},"name":"Beverly Hills"},"openHouses":[],"pdpURL":"/property/3044280730-1710-Ferrari-Dr-Beverly-Hills-CA-90210","photos":{"all":["ps.62/8/6/c/8/picture-uh=cd73f427424ddb8966db9f5896b96f7-ps=86c864ca54a0e534a7f4ce9218fee.jpg:15","ps.62/2/f/3/7/picture-uh=14aba85a2f58e2515c053f3bb2cc-ps=2f37fa42ae191f34994bfdaae18ca4bc.jpg:15","ps.62/1/d/7/f/picture-uh=aced092fed3f1fa70476aeaff72d7ec-ps=1d7fb3fa466ed2c452b0a8e598d52f71.jpg:15","ps.62/5/5/c/f/picture-uh=99ebbb728e854469dba0f0c09cd55a4-ps=55cf69eb07dfe8572e0ec76647145f7.jpg:15","ps.62/d/d/e/5/picture-uh=1ab8837a1c2f5fba0d66114dcd7961d-ps=dde58da85ecfa8b55eade652ba1bd946.jpg:15","ps.62/a/d/e/b/picture-uh=18f5c2d49afa498d437d8cbee3562d3-ps=adebe9c5726898bc401e4ce1d49312e6.jpg:15","ps.62/6/4/6/9/picture-uh=70832b74c2c1a333e398e59d104fd82c-ps=6469a9ffeb70b4a814978ca2077dcba.jpg:15","ps.62/3/b/e/9/picture-uh=539dc98cc7c57757654b598f962ff82-ps=3be97a1591ddf9d4b9387028538fbaf5.jpg:15","ps.62/f/f/6/e/picture-uh=40a5d641d9087cf8a40cb198515b17a-ps=ff6e7ea43d63dc1e417c1bb6585e9761.jpg:15","ps.62/c/5/f/c/picture-uh=f2fa397b590e0171a81e6af97702c77-ps=c5fc5f4341101cca925b52d459691f3.jpg:15"],"primaryMain":"ps.62/8/6/c/8/picture-uh=cd73f427424ddb8966db9f5896b96f7-ps=86c864ca54a0e534a7f4ce9218fee.jpg","primaryThumb":null,"realtyTracURL":null,"streetView":"http://maps.googleapis.com/maps/api/streetview?client=gme-truliainc&size=600x400&sensor=false&location=34.102165%2C-118.42078&signature=sbIb83Qy1snn__gV5ApfMyhi43U="},"priceChange":{"amount":null,"hasChange":null,"hasReduction":null},"propertyHash":"2e53f4c23e286dfa975a9d71d4eb2215","rentalCommunity":{"amenities":null,"features":{"hasAC":null,"hasAdditionalStorage":null,"hasClubHouse":null,"hasDryer":null,"hasFitnessCenter":null,"hasMicrowave":null,"hasPool":null,"hasView":null,"hasWasher":null},"logoPartnerSolo":null,"maxFloorplanSearchBedrooms":null,"maxFloorplanSearchPrice":null,"minFloorplanSearchBedrooms":null,"minFloorplanSearchPrice":null},"saleType":null,"status":"for_sale","statusDisplay":"For Sale","statusSecondaryText":"resale","valuation":{"canDisplay":true,"price":null},"id":"3044280730"},{"actions":[],"adCampaigns":null,"address":{"allNoZip":"225 N Canon Dr #8A, Beverly Hills CA","components":{"apartmentNumber":"8A","city":"Beverly Hills","cityDisplay":"Beverly Hills","county":"LOS ANGELES","countyDisplay":"Los Angeles","state":"CA","stateCode":"CA","street":"N Canon Dr","streetDisplay":"N Canon Dr","zipCode":"90210"},"delivery":"225 North Canon Drive #8A","display":"225 N Canon Dr #8A, Beverly Hills, CA 90210","isAddressDisclosed":true,"partial":"225 N Canon Dr #8A","seoDisplay":"225 North Canon Drive #8A, Beverly Hills CA","seoUrl":"225-N-Canon-Dr-8A-Beverly-Hills-CA-90210","short":"225 N Canon Dr #8A"},"details":{"architecturalStyle":null,"architectureStyle":"Contemporary","bathrooms":4,"bedrooms":3,"buildingHasConcierge":null,"buildingUnitCount":null,"dateListed":"2014-05-28","daysOnMarket":"Just added","daysOnTrulia":2,"description":"The Dome at the Montage Hotel Beverly Hills, a stunning corner unit designed w/ the ultimate lifestyle in mind. 3,865sf fully furnished posh creation, living room w/ a soaring 18' ceiling and dramatic views of the surrounding hills and cityscape. Luxurious master suite with 10' ceilings opens to a swanky lounge area, fireplace and private balcony. The ultimate Zebra wood paneled walk-in closet leads to a spa like master bathroom w/ marble finishes and pure bliss. 2 additional en suite bedrooms complete the residence quarters. A Gourmet Chef's kitchen complete satisfies the epicurean as you choose to dine at the kitchen counter or in the red leather walled formal dining room. Amenities: exclusive residence only elevator, third bedroom private access, state-of-the-art a/v, contemporary finishes thruout, wine cellar, laundry room, exclusive concierge services including services and amenities of the hotel: sundeck, pool, spa, gym, five star dining and shopping. Lavish living awaits you!","exteriorType":null,"fees":{"amounts":null,"types":null},"floorCovering":null,"floorCoverings":null,"hasAirConditioning":null,"hasAttic":null,"hasBalcony":null,"hasBarbequeArea":null,"hasBasement":null,"hasCableSatellite":null,"hasCeilingFan":null,"hasCourtyard":null,"hasDeck":null,"hasDisabledAccess":null,"hasDishwasher":null,"hasDisposal":null,"hasDock":null,"hasDoorman":null,"hasDoublepaneWindows":null,"hasDryer":null,"hasFireplace":true,"hasGarage":true,"hasGarden":null,"hasGatedEntry":null,"hasGreenhouse":null,"hasHandrails":null,"hasHotTubSpa":null,"hasIntercom":true,"hasJettedBathTub":null,"hasLawn":null,"hasMicrowave":null,"hasMotherInLaw":null,"hasPatio":null,"hasPond":null,"hasPool":null,"hasPorch":null,"hasPrivateBalcony":null,"hasPrivatePatio":null,"hasRefrigerator":null,"hasRvParking":null,"hasSauna":null,"hasSecuritySystem":null,"hasSkylight":null,"hasSportscourt":null,"hasSprinklerSystem":null,"hasStreetview":null,"hasTerrace":null,"hasVaultedCeiling":null,"hasWasher":null,"hasWasherDryerHookup":null,"hasWetBar":null,"hasWindowCoverings":null,"heatingFuel":null,"heatingSystems":null,"isFeatured":true,"isForeclosure":false,"isFurnished":null,"isNewConstruction":null,"isNewListing":true,"isWaterFront":null,"listingType":"RESALE","lotSize":null,"lotSizeDisplay":null,"mortgage":null,"numParkingSpaces":null,"parkingTypes":null,"partialBathrooms":0,"pets":{"all":null,"petDeposit":null,"petRent":null,"petRestriction":null,"petsAllowed":null},"planPriceFrom":null,"planPriceTo":null,"price":12800000,"propertyDef":"","propertyPronoun":"condo","propertyTitle":"For Sale","propertyType":"Condo","rangeType":null,"rentalListingType":null,"roofType":null,"roomCount":null,"school":null,"securityDeposit":null,"siteName":"californiamoves.com","siteUrl":"www.californiamoves.com","squareFootage":"3,820","viewType":null,"yearBuilt":2008},"fees":{"amounts":null,"types":null},"foreclosure":{"status":null},"isActiveForRent":false,"isActiveForSale":true,"isForRent":false,"isForSale":true,"isNrt":true,"isOffMarket":false,"isSold":false,"isUnknown":false,"isWithdrawn":false,"keywords":{"list":["dining room","hills","corner unit","marble","laundry","formal dining","private","elevator","quarters","pool","living room","master suite","gym","concierge","fireplace","formal dining room","gourmet","balcony","spa","wine cellar","cellar","walk in","concierge services","furnished","walk in closet","contemporary","views","shopping","laundry room"]},"lastSale":{"canDisplay":true,"date":null,"isRecent":false,"price":null},"leadType":"lead","listing":{"agent":{"email":"info@lindamay.com","isFeatured":false,"metadata":{"created":null,"id":"1926722","links":[],"modified":null},"name":"LINDA MAY","phone":"3107776247","photo":"http://static.trulia-cdn.com/userimg/user_m_00_s.gif","profileUrl":"/profile/linda-may-agent-beverly-hills-ca-1926722/","userId":"1926722"},"broker":{"email":"info@lindamay.com","isFeatured":true,"logo":"http://logos.trulia-cdn.com/pictures/logos/listings/10338446.gif?v=20130416152012","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"LINDA MAY","phone":"(310) 777-6247"},"feedId":1004,"listingId":"3157119661","office":{"email":"900624.lead@cendant.leadrouter.com","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Beverly Hills North","phone":"3107776200"},"providerListingId":"3682366","providerName":"californiamoves.com","providerUrl":"/transfer.php?s_id=10338446&p_id=1093975887&t_id=fdpl1&feat=1&ptype=for_sale&plid=3157119661","siteId":null,"siteIdAlt":"10338446"},"location":{"latitude":34.06817,"longitude":-118.39864},"locationId":76159,"metadata":{"created":1401419753,"deepLink":"TruliaPDPForSale://?urlHash=aWQ9MTA5Mzk3NTg4NyZpZHQ9Zm9yK3NhbGUmc3Q9Q0EmY3k9QmV2ZXJseStIaWxscw%3D%3D","id":"1093975887","links":[{"href":"/properties/for_sale/CA/1093975887","rel":"self","rel_href":"/relations/self","type":"application/json; name=property_details_for_sale"}],"modified":1401346800,"stateCode":"CA","type":"for_sale"},"modules":[{"href":"/properties/for_sale/CA/1093975887/lead","rel":"module","rel_href":"/relations/module","type":"application/json; name=lead"},{"href":"/properties/for_sale/CA/1093975887/mortgage","rel":"module","rel_href":"/relations/module","type":"application/json; name=mortgage"},{"href":"/properties/for_sale/CA/1093975887/price_history","rel":"module","rel_href":"/relations/module","type":"application/json; name=price_history"},{"href":"/properties/for_sale/CA/1093975887/public_records","rel":"module","rel_href":"/relations/module","type":"application/json; name=public_records"},{"href":"/properties/for_sale/CA/1093975887/tax","rel":"module","rel_href":"/relations/module","type":"application/json; name=tax"},{"href":"/properties/for_sale/CA/1093975887/sales_trends","rel":"module","rel_href":"/relations/module","type":"application/json; name=sales_trends"}],"neighborhood":{"metadata":{"created":null,"id":null,"links":[],"modified":null},"name":null},"openHouses":[],"pdpURL":"/property/1093975887-225-N-Canon-Dr-8A-Beverly-Hills-CA-90210","photos":{"all":["ps.62/4/c/7/1/picture-uh=e82ab1d3d9bbff259e29327b4cdf93-ps=4c71a8ff6c21ac77698b23e97fca6946.jpg:15","ps.62/a/d/1/a/picture-uh=28afdf6d38b221b837fa1419956042-ps=ad1a3e2f7b69b02b5c63665166b8a853.jpg:15","ps.62/3/e/9/9/picture-uh=5fc5344ef5a485843ce95f3eafa77b-ps=3e996378893730d4b64a16794d8b8dff.jpg:15","ps.62/f/4/4/b/picture-uh=f716ec6434201422827381e67441682-ps=f44b91745754a3923cd3fa526df855f.jpg:15","ps.62/6/7/5/7/picture-uh=97ec78d86fddb0ef6c9a86cd28bcb5-ps=675771e2b5baf616e447307aec49a787.jpg:15","ps.62/d/f/a/1/picture-uh=59a3c385c6f70a7d3cf31c49ac4a725-ps=dfa1b94d906d7aca49eaee295bccda.jpg:15","ps.62/0/8/0/4/picture-uh=79d139dc56d7c24b3638d5b53594464c-ps=0804c58d7781aa939bdcd18f365ecb0.jpg:15","ps.62/f/0/2/a/picture-uh=11f59fae53cf01238e364952930f68-ps=f02afeba1cbdf2cfe7d42016aea9b737.jpg:15","ps.62/f/4/9/f/picture-uh=a22d793a389eeea398f0f7553fa31d-ps=f49fb21bfd9feadffe52351f9dddd9e1.jpg:15","ps.62/8/e/2/9/picture-uh=be25e7b4aa072a876c30cd46e078ba-ps=8e29a378db91d387a4bd1438c87738.jpg:15","ps.62/e/e/2/9/picture-uh=f50213db993da38c12f2c20c553f76f-ps=ee291ff7ff06540d0e0e38a13af9cb1.jpg:15","ps.62/2/d/3/0/picture-uh=1b23badb49747cce8fa215c61c84a11-ps=2d3060871661a2bc9fa5a22c7ddb81fa.jpg:15","ps.62/a/9/8/9/picture-uh=634ce5f9fbf49619f8e43cd6a2b8cee0-ps=a9893e36933023e12f1572cdb36d3f.jpg:15","ps.62/9/a/6/b/picture-uh=eae23c4019f8ee559753a8c1335731-ps=9a6be58c8756539bf85703bb79b74cb.jpg:15","ps.62/9/4/6/c/picture-uh=631d2f5520fab027860e3e030ec51ae-ps=946c5f63cb2b7af7a8e1aec8e2489fc.jpg:15","ps.62/a/8/7/7/picture-uh=3fe0e66860f5dfdbaf6ec448866782c2-ps=a877ff1b7acb9161958d34f5c1206f94.jpg:15","ps.62/a/b/c/a/picture-uh=175f876a22badfbed6ece1e33f40bd41-ps=abcaea5b7616e7d7f4afd7b8fc18.jpg:15","ps.62/f/2/f/5/picture-uh=d0333c7d2efb4abddbcda300a65e-ps=f2f568e23e5e53cde4c07a2935ad37b7.jpg:15","ps.62/e/c/6/2/picture-uh=a665cc9e5de9b6285449badd7609bfa-ps=ec6266214526641e52dfcab295682b7f.jpg:15"],"primaryMain":"ps.62/4/c/7/1/picture-uh=e82ab1d3d9bbff259e29327b4cdf93-ps=4c71a8ff6c21ac77698b23e97fca6946.jpg","primaryThumb":null,"realtyTracURL":null,"streetView":"http://maps.googleapis.com/maps/api/streetview?client=gme-truliainc&size=600x400&sensor=false&location=34.06817%2C-118.39864&signature=Up5yq_44GdnQS7ADeon540OoTt8="},"priceChange":{"amount":null,"hasChange":null,"hasReduction":null},"propertyHash":"1fed5e22be104879e2286523127598e3","rentalCommunity":{"amenities":null,"features":{"hasAC":null,"hasAdditionalStorage":null,"hasClubHouse":null,"hasDryer":null,"hasFitnessCenter":null,"hasMicrowave":null,"hasPool":null,"hasView":null,"hasWasher":null},"logoPartnerSolo":null,"maxFloorplanSearchBedrooms":null,"maxFloorplanSearchPrice":null,"minFloorplanSearchBedrooms":null,"minFloorplanSearchPrice":null},"saleType":null,"status":"for_sale","statusDisplay":"For Sale","statusSecondaryText":"resale","valuation":{"canDisplay":true,"price":null},"id":"1093975887"},{"actions":[],"adCampaigns":null,"address":{"allNoZip":"320 S Rodeo Dr, Beverly Hills CA","components":{"apartmentNumber":null,"city":"Beverly Hills","cityDisplay":"Beverly Hills","county":"LOS ANGELES","countyDisplay":"Los Angeles","state":"CA","stateCode":"CA","street":"S Rodeo Dr","streetDisplay":"S Rodeo Dr","zipCode":"90212"},"delivery":"320 South Rodeo Drive","display":"320 S Rodeo Dr, Beverly Hills, CA 90212","isAddressDisclosed":true,"partial":"320 S Rodeo Dr","seoDisplay":"320 South Rodeo Drive, Beverly Hills CA","seoUrl":"320-S-Rodeo-Dr-Beverly-Hills-CA-90212","short":"320 S Rodeo Dr"},"details":{"architecturalStyle":null,"architectureStyle":"Spanish","bathrooms":4,"bedrooms":4,"buildingHasConcierge":null,"buildingUnitCount":null,"dateListed":"2014-05-19","daysOnMarket":"11 days","daysOnTrulia":9,"description":"Beautiful courtyard Spanish on prime Rodeo Drive. Built in 1930, this home maintains the original Spanish charm with hardwood floors, authentic Spanish tile, and wrought iron railings. Public rooms on the main level include the large step-down living room with fireplace, spacious family room with walls of glass opening to the backyard, and dining room adjoining the remodeled kitchen featuring stainless steel appliances and granite countertops. The second level offers two large family bedrooms with shared bath, and huge master suite featuring walk in closet, built in closets, and wonderful original Spanish tile in the master bath. The downstairs bedroom and remodeled bath makes for a convenient housekeeper's quarters, home office, guest room, or 4th bedroom. There is also a glamorous powder room and laundry room downstairs. The backyard features a very large pool and a lovely Japanese garden designed by renowned Japanese landscape architect, Eijiro Nunokawa.","exteriorType":null,"fees":{"amounts":null,"types":null},"floorCovering":null,"floorCoverings":null,"hasAirConditioning":null,"hasAttic":null,"hasBalcony":null,"hasBarbequeArea":null,"hasBasement":null,"hasCableSatellite":null,"hasCeilingFan":null,"hasCourtyard":null,"hasDeck":null,"hasDisabledAccess":null,"hasDishwasher":null,"hasDisposal":null,"hasDock":null,"hasDoorman":null,"hasDoublepaneWindows":null,"hasDryer":null,"hasFireplace":true,"hasGarage":null,"hasGarden":null,"hasGatedEntry":null,"hasGreenhouse":null,"hasHandrails":null,"hasHotTubSpa":null,"hasIntercom":null,"hasJettedBathTub":null,"hasLawn":null,"hasMicrowave":null,"hasMotherInLaw":null,"hasPatio":null,"hasPond":null,"hasPool":null,"hasPorch":null,"hasPrivateBalcony":null,"hasPrivatePatio":null,"hasRefrigerator":null,"hasRvParking":null,"hasSauna":null,"hasSecuritySystem":null,"hasSkylight":null,"hasSportscourt":null,"hasSprinklerSystem":null,"hasStreetview":null,"hasTerrace":null,"hasVaultedCeiling":null,"hasWasher":null,"hasWasherDryerHookup":null,"hasWetBar":null,"hasWindowCoverings":null,"heatingFuel":null,"heatingSystems":null,"isFeatured":true,"isForeclosure":false,"isFurnished":null,"isNewConstruction":null,"isNewListing":false,"isWaterFront":null,"listingType":"RESALE","lotSize":null,"lotSizeDisplay":null,"mortgage":null,"numParkingSpaces":null,"parkingTypes":null,"partialBathrooms":0,"pets":{"all":null,"petDeposit":null,"petRent":null,"petRestriction":null,"petsAllowed":null},"planPriceFrom":null,"planPriceTo":null,"price":2795000,"propertyDef":"","propertyPronoun":"home","propertyTitle":"For Sale","propertyType":"Single-Family Home","rangeType":null,"rentalListingType":null,"roofType":null,"roomCount":null,"school":null,"securityDeposit":null,"siteName":"californiamoves.com","siteUrl":"www.californiamoves.com","squareFootage":"3,092","viewType":null,"yearBuilt":1930},"fees":{"amounts":null,"types":null},"foreclosure":{"status":null},"isActiveForRent":false,"isActiveForSale":true,"isForRent":false,"isForSale":true,"isNrt":true,"isOffMarket":false,"isSold":false,"isUnknown":false,"isWithdrawn":false,"keywords":{"list":["guest room","dining room","hardwood","remodeled","family room","granite countertops","remodeled kitchen","laundry","powder room","spacious","quarters","pool","hardwood floors","living room","master suite","backyard","fireplace","granite","office","spanish","walk in","built in","home office","master bath","huge","charm","architect","stainless steel appliances","walk in closet","tile","stainless","wrought iron","courtyard","garden","stainless steel","laundry room"]},"lastSale":{"canDisplay":true,"date":null,"isRecent":false,"price":null},"leadType":"lead","listing":{"agent":{"email":"homes@jademills.com","isFeatured":false,"metadata":{"created":null,"id":"1925614","links":[],"modified":null},"name":"Jade Mills","phone":"310-285-7508","photo":"http://static.trulia-cdn.com/userimg/user_m_00_s.gif","profileUrl":"/profile/jade-mills-agent-beverly-hills-ca-1925614/","userId":"1925614"},"broker":{"email":"homes@jademills.com","isFeatured":true,"logo":"http://logos.trulia-cdn.com/pictures/logos/listings/10338446.gif?v=20130416152012","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Jade Mills","phone":"(310) 285-7508"},"feedId":1004,"listingId":"3156564769","office":{"email":"900624.lead@cendant.leadrouter.com","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Beverly Hills South","phone":"3102733113"},"providerListingId":"3676026","providerName":"californiamoves.com","providerUrl":"/transfer.php?s_id=10338446&p_id=3156492459&t_id=fdpl1&feat=1&ptype=for_sale&plid=3156564769","siteId":null,"siteIdAlt":"10338446"},"location":{"latitude":34.061237,"longitude":-118.40096},"locationId":76161,"metadata":{"created":1400816386,"deepLink":"TruliaPDPForSale://?urlHash=aWQ9MzE1NjQ5MjQ1OSZpZHQ9Zm9yK3NhbGUmc3Q9Q0EmY3k9QmV2ZXJseStIaWxscw%3D%3D","id":"3156492459","links":[{"href":"/properties/for_sale/CA/3156492459","rel":"self","rel_href":"/relations/self","type":"application/json; name=property_details_for_sale"}],"modified":1400742000,"stateCode":"CA","type":"for_sale"},"modules":[{"href":"/properties/for_sale/CA/3156492459/lead","rel":"module","rel_href":"/relations/module","type":"application/json; name=lead"},{"href":"/properties/for_sale/CA/3156492459/mortgage","rel":"module","rel_href":"/relations/module","type":"application/json; name=mortgage"},{"href":"/properties/for_sale/CA/3156492459/price_history","rel":"module","rel_href":"/relations/module","type":"application/json; name=price_history"},{"href":"/properties/for_sale/CA/3156492459/public_records","rel":"module","rel_href":"/relations/module","type":"application/json; name=public_records"},{"href":"/properties/for_sale/CA/3156492459/tax","rel":"module","rel_href":"/relations/module","type":"application/json; name=tax"},{"href":"/properties/for_sale/CA/3156492459/sales_trends","rel":"module","rel_href":"/relations/module","type":"application/json; name=sales_trends"}],"neighborhood":{"metadata":{"created":null,"id":null,"links":[],"modified":null},"name":null},"openHouses":[{"date":"Sun Jun 1","description":"Beautiful courtyard Spanish on prime Rodeo Drive. Built in 1930, this home maintains the original Spanish charm w/hardwood floors, authentic Spanish tile, &amp; wrought iron railings. Large step-down living room w/fp, spacious family room, &amp; dining room adjoining the remodeled kitchen. Upstairs 2 large family bedrooms w/shared bth, &amp; huge master suite w/walk-in closet &amp; bth w/wonderful original Spanish tile. Downstairs bdrm &amp; bth, powder &amp; laundry rm. Backyard w/large pool &amp; lovely Japanese garden.","time":"2pm to 5pm"}],"pdpURL":"/property/3156492459-320-S-Rodeo-Dr-Beverly-Hills-CA-90212","photos":{"all":["ps.62/b/e/2/c/picture-uh=6390d6f71da33947873e4f7293858b70-ps=be2c7d52572973901c667548539b3769.jpg:15","ps.62/8/c/9/0/picture-uh=232940d342cfac5caaf9a0ff81692d5c-ps=8c906aae4ae2d81163116b8596d524e.jpg:15","ps.62/c/c/3/4/picture-uh=17459a7df0a81eb29cb37fbc2d76eda8-ps=cc343b88bdd75962fa3e1b55c3f30bb.jpg:15","ps.62/b/5/8/9/picture-uh=aba06f5c9a7061e4aa48f9d4af7b2eec-ps=b589d2e2d85cfde88bc55cfa854ee3c.jpg:15","ps.62/7/5/7/0/picture-uh=1fc9dda3aecc653ef9bb1765e9eb-ps=75709b9a4a41e492afa2b6c9840f8.jpg:15","ps.62/b/7/d/8/picture-uh=83d7e1b134ffb1f979f767cc663ff51b-ps=b7d87435f942d15fdbb2ab318b6dd67e.jpg:15","ps.62/2/e/f/f/picture-uh=49cbee3f2b05d565fb83af16ea6824-ps=2eff1519e04d9b562eb643f34cfc20.jpg:15"],"primaryMain":"ps.62/b/e/2/c/picture-uh=6390d6f71da33947873e4f7293858b70-ps=be2c7d52572973901c667548539b3769.jpg","primaryThumb":null,"realtyTracURL":null,"streetView":"http://maps.googleapis.com/maps/api/streetview?client=gme-truliainc&size=600x400&sensor=false&location=34.061237%2C-118.40096&signature=rBwjcb2_HeSmMK3eC2TYhNoR8Gk="},"priceChange":{"amount":null,"hasChange":null,"hasReduction":null},"propertyHash":"4942d11f7c232b9faac4f8908108693","rentalCommunity":{"amenities":null,"features":{"hasAC":null,"hasAdditionalStorage":null,"hasClubHouse":null,"hasDryer":null,"hasFitnessCenter":null,"hasMicrowave":null,"hasPool":null,"hasView":null,"hasWasher":null},"logoPartnerSolo":null,"maxFloorplanSearchBedrooms":null,"maxFloorplanSearchPrice":null,"minFloorplanSearchBedrooms":null,"minFloorplanSearchPrice":null},"saleType":null,"status":"for_sale","statusDisplay":"For Sale","statusSecondaryText":"resale","valuation":{"canDisplay":true,"price":null},"id":"3156492459"}]},"openHomes":{"summary":{"collection":"srp/properties","ids":["3156492459","3010089455","3132223808","3099361686"],"params":{"path":"/for_sale/Beverly_Hills,CA/t,w_oh/","page_size":4},"meta":{}},"data":[{"actions":[],"adCampaigns":null,"address":{"allNoZip":"320 S Rodeo Dr, Beverly Hills CA","components":{"apartmentNumber":null,"city":"Beverly Hills","cityDisplay":"Beverly Hills","county":"LOS ANGELES","countyDisplay":"Los Angeles","state":"CA","stateCode":"CA","street":"S Rodeo Dr","streetDisplay":"S Rodeo Dr","zipCode":"90212"},"delivery":"320 South Rodeo Drive","display":"320 S Rodeo Dr, Beverly Hills, CA 90212","isAddressDisclosed":true,"partial":"320 S Rodeo Dr","seoDisplay":"320 South Rodeo Drive, Beverly Hills CA","seoUrl":"320-S-Rodeo-Dr-Beverly-Hills-CA-90212","short":"320 S Rodeo Dr"},"details":{"architecturalStyle":null,"architectureStyle":"Spanish","bathrooms":4,"bedrooms":4,"buildingHasConcierge":null,"buildingUnitCount":null,"dateListed":"2014-05-19","daysOnMarket":"11 days","daysOnTrulia":9,"description":"Beautiful courtyard Spanish on prime Rodeo Drive. Built in 1930, this home maintains the original Spanish charm with hardwood floors, authentic Spanish tile, and wrought iron railings. Public rooms on the main level include the large step-down living room with fireplace, spacious family room with walls of glass opening to the backyard, and dining room adjoining the remodeled kitchen featuring stainless steel appliances and granite countertops. The second level offers two large family bedrooms with shared bath, and huge master suite featuring walk in closet, built in closets, and wonderful original Spanish tile in the master bath. The downstairs bedroom and remodeled bath makes for a convenient housekeeper's quarters, home office, guest room, or 4th bedroom. There is also a glamorous powder room and laundry room downstairs. The backyard features a very large pool and a lovely Japanese garden designed by renowned Japanese landscape architect, Eijiro Nunokawa.","exteriorType":null,"fees":{"amounts":null,"types":null},"floorCovering":null,"floorCoverings":null,"hasAirConditioning":null,"hasAttic":null,"hasBalcony":null,"hasBarbequeArea":null,"hasBasement":null,"hasCableSatellite":null,"hasCeilingFan":null,"hasCourtyard":null,"hasDeck":null,"hasDisabledAccess":null,"hasDishwasher":null,"hasDisposal":null,"hasDock":null,"hasDoorman":null,"hasDoublepaneWindows":null,"hasDryer":null,"hasFireplace":true,"hasGarage":null,"hasGarden":null,"hasGatedEntry":null,"hasGreenhouse":null,"hasHandrails":null,"hasHotTubSpa":null,"hasIntercom":null,"hasJettedBathTub":null,"hasLawn":null,"hasMicrowave":null,"hasMotherInLaw":null,"hasPatio":null,"hasPond":null,"hasPool":null,"hasPorch":null,"hasPrivateBalcony":null,"hasPrivatePatio":null,"hasRefrigerator":null,"hasRvParking":null,"hasSauna":null,"hasSecuritySystem":null,"hasSkylight":null,"hasSportscourt":null,"hasSprinklerSystem":null,"hasStreetview":null,"hasTerrace":null,"hasVaultedCeiling":null,"hasWasher":null,"hasWasherDryerHookup":null,"hasWetBar":null,"hasWindowCoverings":null,"heatingFuel":null,"heatingSystems":null,"isFeatured":true,"isForeclosure":false,"isFurnished":null,"isNewConstruction":null,"isNewListing":false,"isWaterFront":null,"listingType":"RESALE","lotSize":null,"lotSizeDisplay":null,"mortgage":null,"numParkingSpaces":null,"parkingTypes":null,"partialBathrooms":0,"pets":{"all":null,"petDeposit":null,"petRent":null,"petRestriction":null,"petsAllowed":null},"planPriceFrom":null,"planPriceTo":null,"price":2795000,"propertyDef":"","propertyPronoun":"home","propertyTitle":"For Sale","propertyType":"Single-Family Home","rangeType":null,"rentalListingType":null,"roofType":null,"roomCount":null,"school":null,"securityDeposit":null,"siteName":"californiamoves.com","siteUrl":"www.californiamoves.com","squareFootage":"3,092","viewType":null,"yearBuilt":1930},"fees":{"amounts":null,"types":null},"foreclosure":{"status":null},"isActiveForRent":false,"isActiveForSale":true,"isForRent":false,"isForSale":true,"isNrt":true,"isOffMarket":false,"isSold":false,"isUnknown":false,"isWithdrawn":false,"keywords":{"list":["guest room","dining room","hardwood","remodeled","family room","granite countertops","remodeled kitchen","laundry","powder room","spacious","quarters","pool","hardwood floors","living room","master suite","backyard","fireplace","granite","office","spanish","walk in","built in","home office","master bath","huge","charm","architect","stainless steel appliances","walk in closet","tile","stainless","wrought iron","courtyard","garden","stainless steel","laundry room"]},"lastSale":{"canDisplay":true,"date":null,"isRecent":false,"price":null},"leadType":"lead","listing":{"agent":{"email":"homes@jademills.com","isFeatured":false,"metadata":{"created":null,"id":"1925614","links":[],"modified":null},"name":"Jade Mills","phone":"310-285-7508","photo":"http://static.trulia-cdn.com/userimg/user_m_00_s.gif","profileUrl":"/profile/jade-mills-agent-beverly-hills-ca-1925614/","userId":"1925614"},"broker":{"email":"homes@jademills.com","isFeatured":true,"logo":"http://logos.trulia-cdn.com/pictures/logos/listings/10338446.gif?v=20130416152012","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Jade Mills","phone":"(310) 285-7508"},"feedId":1004,"listingId":"3156564769","office":{"email":"900624.lead@cendant.leadrouter.com","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Beverly Hills South","phone":"3102733113"},"providerListingId":"3676026","providerName":"californiamoves.com","providerUrl":"/transfer.php?s_id=10338446&p_id=3156492459&t_id=fdpl1&feat=1&ptype=for_sale&plid=3156564769","siteId":null,"siteIdAlt":"10338446"},"location":{"latitude":34.061237,"longitude":-118.40096},"locationId":76161,"metadata":{"created":1400816386,"deepLink":"TruliaPDPForSale://?urlHash=aWQ9MzE1NjQ5MjQ1OSZpZHQ9Zm9yK3NhbGUmc3Q9Q0EmY3k9QmV2ZXJseStIaWxscw%3D%3D","id":"3156492459","links":[{"href":"/properties/for_sale/CA/3156492459","rel":"self","rel_href":"/relations/self","type":"application/json; name=property_details_for_sale"}],"modified":1400742000,"stateCode":"CA","type":"for_sale"},"modules":[{"href":"/properties/for_sale/CA/3156492459/lead","rel":"module","rel_href":"/relations/module","type":"application/json; name=lead"},{"href":"/properties/for_sale/CA/3156492459/mortgage","rel":"module","rel_href":"/relations/module","type":"application/json; name=mortgage"},{"href":"/properties/for_sale/CA/3156492459/price_history","rel":"module","rel_href":"/relations/module","type":"application/json; name=price_history"},{"href":"/properties/for_sale/CA/3156492459/public_records","rel":"module","rel_href":"/relations/module","type":"application/json; name=public_records"},{"href":"/properties/for_sale/CA/3156492459/tax","rel":"module","rel_href":"/relations/module","type":"application/json; name=tax"},{"href":"/properties/for_sale/CA/3156492459/sales_trends","rel":"module","rel_href":"/relations/module","type":"application/json; name=sales_trends"}],"neighborhood":{"metadata":{"created":null,"id":null,"links":[],"modified":null},"name":null},"openHouses":[{"date":"Sun Jun 1","description":"Beautiful courtyard Spanish on prime Rodeo Drive. Built in 1930, this home maintains the original Spanish charm w/hardwood floors, authentic Spanish tile, &amp; wrought iron railings. Large step-down living room w/fp, spacious family room, &amp; dining room adjoining the remodeled kitchen. Upstairs 2 large family bedrooms w/shared bth, &amp; huge master suite w/walk-in closet &amp; bth w/wonderful original Spanish tile. Downstairs bdrm &amp; bth, powder &amp; laundry rm. Backyard w/large pool &amp; lovely Japanese garden.","time":"2pm to 5pm"}],"pdpURL":"/property/3156492459-320-S-Rodeo-Dr-Beverly-Hills-CA-90212","photos":{"all":["ps.62/b/e/2/c/picture-uh=6390d6f71da33947873e4f7293858b70-ps=be2c7d52572973901c667548539b3769.jpg:15","ps.62/8/c/9/0/picture-uh=232940d342cfac5caaf9a0ff81692d5c-ps=8c906aae4ae2d81163116b8596d524e.jpg:15","ps.62/c/c/3/4/picture-uh=17459a7df0a81eb29cb37fbc2d76eda8-ps=cc343b88bdd75962fa3e1b55c3f30bb.jpg:15","ps.62/b/5/8/9/picture-uh=aba06f5c9a7061e4aa48f9d4af7b2eec-ps=b589d2e2d85cfde88bc55cfa854ee3c.jpg:15","ps.62/7/5/7/0/picture-uh=1fc9dda3aecc653ef9bb1765e9eb-ps=75709b9a4a41e492afa2b6c9840f8.jpg:15","ps.62/b/7/d/8/picture-uh=83d7e1b134ffb1f979f767cc663ff51b-ps=b7d87435f942d15fdbb2ab318b6dd67e.jpg:15","ps.62/2/e/f/f/picture-uh=49cbee3f2b05d565fb83af16ea6824-ps=2eff1519e04d9b562eb643f34cfc20.jpg:15"],"primaryMain":"ps.62/b/e/2/c/picture-uh=6390d6f71da33947873e4f7293858b70-ps=be2c7d52572973901c667548539b3769.jpg","primaryThumb":null,"realtyTracURL":null,"streetView":"http://maps.googleapis.com/maps/api/streetview?client=gme-truliainc&size=600x400&sensor=false&location=34.061237%2C-118.40096&signature=rBwjcb2_HeSmMK3eC2TYhNoR8Gk="},"priceChange":{"amount":null,"hasChange":null,"hasReduction":null},"propertyHash":"4942d11f7c232b9faac4f8908108693","rentalCommunity":{"amenities":null,"features":{"hasAC":null,"hasAdditionalStorage":null,"hasClubHouse":null,"hasDryer":null,"hasFitnessCenter":null,"hasMicrowave":null,"hasPool":null,"hasView":null,"hasWasher":null},"logoPartnerSolo":null,"maxFloorplanSearchBedrooms":null,"maxFloorplanSearchPrice":null,"minFloorplanSearchBedrooms":null,"minFloorplanSearchPrice":null},"saleType":null,"status":"for_sale","statusDisplay":"For Sale","statusSecondaryText":"resale","valuation":{"canDisplay":true,"price":null},"id":"3156492459"},{"actions":[],"adCampaigns":null,"address":{"allNoZip":"447 N Doheny Dr #103, Beverly Hills CA","components":{"apartmentNumber":"103","city":"Beverly Hills","cityDisplay":"Beverly Hills","county":"LOS ANGELES","countyDisplay":"Los Angeles","state":"CA","stateCode":"CA","street":"N Doheny Dr","streetDisplay":"N Doheny Dr","zipCode":"90210"},"delivery":"447 North Doheny Drive #103","display":"447 N Doheny Dr #103, Beverly Hills, CA 90210","isAddressDisclosed":true,"partial":"447 N Doheny Dr #103","seoDisplay":"447 North Doheny Drive #103, Beverly Hills CA","seoUrl":"447-N-Doheny-Dr-103-Beverly-Hills-CA-90210","short":"447 N Doheny Dr #103"},"details":{"architecturalStyle":null,"architectureStyle":"Low Rise","bathrooms":2,"bedrooms":1,"buildingHasConcierge":null,"buildingUnitCount":null,"dateListed":"2014-05-22","daysOnMarket":"8 days","daysOnTrulia":8,"description":"The ultimate condo in one of BH's best and newest buildings, \"La Terrasse\" This ultra-luxurious condo includes approx. 1596 SF of int. living space and a oversized approx. 226 SF enclosed-patio replete w lush landscaping and gas-fire pit. This peaceful retreat is finished w/Italian-burled walnut/sycamore cabinetry, limestone FP, mahogany doors, limestone/walnut flooring, granite/marble counter-tops, and ample storage. Building features 24-hr concierge, media room, sun-deck, gym, and side-by-side parking.","exteriorType":null,"fees":{"amounts":null,"types":null},"floorCovering":null,"floorCoverings":null,"hasAirConditioning":null,"hasAttic":null,"hasBalcony":null,"hasBarbequeArea":null,"hasBasement":null,"hasCableSatellite":null,"hasCeilingFan":null,"hasCourtyard":null,"hasDeck":null,"hasDisabledAccess":null,"hasDishwasher":null,"hasDisposal":null,"hasDock":null,"hasDoorman":null,"hasDoublepaneWindows":null,"hasDryer":null,"hasFireplace":true,"hasGarage":true,"hasGarden":null,"hasGatedEntry":null,"hasGreenhouse":null,"hasHandrails":null,"hasHotTubSpa":null,"hasIntercom":null,"hasJettedBathTub":null,"hasLawn":null,"hasMicrowave":null,"hasMotherInLaw":null,"hasPatio":null,"hasPond":null,"hasPool":null,"hasPorch":null,"hasPrivateBalcony":null,"hasPrivatePatio":null,"hasRefrigerator":null,"hasRvParking":null,"hasSauna":null,"hasSecuritySystem":null,"hasSkylight":null,"hasSportscourt":null,"hasSprinklerSystem":null,"hasStreetview":null,"hasTerrace":null,"hasVaultedCeiling":null,"hasWasher":null,"hasWasherDryerHookup":null,"hasWetBar":null,"hasWindowCoverings":null,"heatingFuel":null,"heatingSystems":null,"isFeatured":true,"isForeclosure":false,"isFurnished":null,"isNewConstruction":null,"isNewListing":false,"isWaterFront":null,"listingType":"RESALE","lotSize":null,"lotSizeDisplay":null,"mortgage":null,"numParkingSpaces":null,"parkingTypes":null,"partialBathrooms":0,"pets":{"all":null,"petDeposit":null,"petRent":null,"petRestriction":null,"petsAllowed":null},"planPriceFrom":null,"planPriceTo":null,"price":1198000,"propertyDef":"","propertyPronoun":"condo","propertyTitle":"For Sale","propertyType":"Condo","rangeType":null,"rentalListingType":null,"roofType":null,"roomCount":null,"school":null,"securityDeposit":null,"siteName":"californiamoves.com","siteUrl":"www.californiamoves.com","squareFootage":"1,521","viewType":null,"yearBuilt":2009},"fees":{"amounts":null,"types":null},"foreclosure":{"status":null},"isActiveForRent":false,"isActiveForSale":true,"isForRent":false,"isForSale":true,"isNrt":true,"isOffMarket":false,"isSold":false,"isUnknown":false,"isWithdrawn":false,"keywords":{"list":["condo","parking","marble","landscaping","patio","fire pit","retreat","walnut flooring","enclosed patio","media room","gym","concierge","sycamore","deck","storage","granite"]},"lastSale":{"canDisplay":true,"date":null,"isRecent":false,"price":null},"leadType":"lead","listing":{"agent":{"email":"allie.riley@coldwellbanker.com","isFeatured":false,"metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Allie Riley","phone":"3104674567","photo":"http://static.trulia-cdn.com/userimg/user_m_00_s.gif","profileUrl":"","userId":null},"broker":{"email":"allie.riley@coldwellbanker.com","isFeatured":true,"logo":"http://logos.trulia-cdn.com/pictures/logos/listings/10338446.gif?v=20130416152012","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Coldwell Banker Residential Brokerage","phone":"(310) 777-6200"},"feedId":1004,"listingId":"3156686131","office":{"email":"900624.lead@cendant.leadrouter.com","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Beverly Hills North","phone":"3107776200"},"providerListingId":"3677375","providerName":"californiamoves.com","providerUrl":"/transfer.php?s_id=10338446&p_id=3010089455&t_id=fdpl1&feat=1&ptype=for_sale&plid=3156686131","siteId":null,"siteIdAlt":"10338446"},"location":{"latitude":34.078915,"longitude":-118.39008},"locationId":76159,"metadata":{"created":1400902862,"deepLink":"TruliaPDPForSale://?urlHash=aWQ9MzAxMDA4OTQ1NSZpZHQ9Zm9yK3NhbGUmc3Q9Q0EmY3k9QmV2ZXJseStIaWxscw%3D%3D","id":"3010089455","links":[{"href":"/properties/for_sale/CA/3010089455","rel":"self","rel_href":"/relations/self","type":"application/json; name=property_details_for_sale"}],"modified":1401174000,"stateCode":"CA","type":"for_sale"},"modules":[{"href":"/properties/for_sale/CA/3010089455/lead","rel":"module","rel_href":"/relations/module","type":"application/json; name=lead"},{"href":"/properties/for_sale/CA/3010089455/mortgage","rel":"module","rel_href":"/relations/module","type":"application/json; name=mortgage"},{"href":"/properties/for_sale/CA/3010089455/price_history","rel":"module","rel_href":"/relations/module","type":"application/json; name=price_history"},{"href":"/properties/for_sale/CA/3010089455/public_records","rel":"module","rel_href":"/relations/module","type":"application/json; name=public_records"},{"href":"/properties/for_sale/CA/3010089455/tax","rel":"module","rel_href":"/relations/module","type":"application/json; name=tax"},{"href":"/properties/for_sale/CA/3010089455/sales_trends","rel":"module","rel_href":"/relations/module","type":"application/json; name=sales_trends"}],"neighborhood":{"metadata":{"created":null,"id":null,"links":[],"modified":null},"name":null},"openHouses":[{"date":"Sun Jun 1","description":"","time":"2pm to 5pm"}],"pdpURL":"/property/3010089455-447-N-Doheny-Dr-103-Beverly-Hills-CA-90210","photos":{"all":["ps.62/1/f/3/8/picture-uh=3076db3a484cfb4545248d8d1dc05aac-ps=1f38e7f4f1e2f85d55231c19676d5c8e.jpg:15","ps.62/8/6/d/4/picture-uh=1d7691829b2c9db9e499fffa182253b7-ps=86d4386bd5f346a4e4ce6fc31d73f48d.jpg:15","ps.62/7/e/1/1/picture-uh=7d7c452243ccaf9983afa9bdabd03ebf-ps=7e11c69f87e26b69574b084c7c3b23.jpg:15","ps.62/f/1/c/1/picture-uh=d7605bd701385f798144a626501b-ps=f1c143ab98baf053878af0b119e63294.jpg:15","ps.62/8/2/8/c/picture-uh=e613b51ae676d9b73bb3ae7759bea466-ps=828caf3a28fefcf329c5dc48a984df8e.jpg:15","ps.62/b/a/c/2/picture-uh=c414a16bfdd988cbfec9e682cfcd93-ps=bac2c010433264c08bbfdaf8c8a86c73.jpg:15","ps.62/5/8/a/5/picture-uh=9d39b185ffa5096897c81393d49b12-ps=58a55dcea6bbfbbba1f8e57f157b98f4.jpg:15","ps.62/6/b/7/a/picture-uh=90f03e75cab326d069feafc7257faa2-ps=6b7aff579edad3551cfab0a1ce17c3bd.jpg:15","ps.62/6/d/8/4/picture-uh=8aaa3c1bf590764b06d1c472512da46-ps=6d8448f18164f5b85a56ec912e789d.jpg:15","ps.62/3/4/2/5/picture-uh=2ecd61e578cf30ef6ef58ba3e1fec1b-ps=3425537d2088ced31e35174d7467bab.jpg:15","ps.62/c/9/4/a/picture-uh=194b259e18a70112ce4aea4f5d1103a-ps=c94a8be52ef189bea6441420ecfc2.jpg:15","ps.62/8/f/9/c/picture-uh=6b3653183c53bd189e8c9e6dc712895-ps=8f9cf16924dec612356e28cc5ae8ae6b.jpg:15","ps.62/5/f/4/2/picture-uh=aa5f16435286d39dc04ac226c57163f-ps=5f421bb4e56b5e14e89c0a2167c8b62.jpg:15","ps.62/c/3/e/f/picture-uh=5bc0e03b15cc6f4f6fea78ccc6da8-ps=c3efebb30e91b7a255445777eb7b385.jpg:15","ps.62/2/5/a/0/picture-uh=f44a6ef7fd6839a5f49c2e3a306c48bc-ps=25a02e6bdadccd8bad4fadca4ad25cb4.jpg:15","ps.62/6/8/a/4/picture-uh=ceb0a7e785181c20bad66fda973feda-ps=68a4c1d3bb74f6ba9fdcbd469e94be9.jpg:15","ps.62/4/6/d/4/picture-uh=8c84046b72a4f9412bdf9f0d6fa61d5-ps=46d4f511c7401a71465e305e36724116.jpg:15","ps.62/4/d/e/c/picture-uh=13253d609a26bd87ef2783ac7e965fd-ps=4dec4149fd5ceae19c7b489d80616847.jpg:15","ps.62/4/d/5/c/picture-uh=eb75115a91bdc9f8606d19865a6ed9a0-ps=4d5c8c8874f1c86d23232bc41ae24a0.jpg:15","ps.62/b/0/2/b/picture-uh=4f57d31f395f46442bad1b1359922b71-ps=b02be42c58591890e97944c31958a4f.jpg:15","ps.62/7/d/a/2/picture-uh=f8c835d8ec34281a9112de807dcf9ecd-ps=7da211977d0fd8228b063a363d06163.jpg:15","ps.62/4/7/1/3/picture-uh=5527daa275cdd9c34d3eaaad79e964-ps=4713a3f2fa8784ff82ce25cbd81acaa.jpg:15","ps.62/3/9/f/d/picture-uh=9b8616cef2f48f5793cad0ef9932187-ps=39fd97ef5124117435cce79edb2592.jpg:15","ps.62/3/4/a/e/picture-uh=5c693646f6ef67ce9ce1d624bfe03-ps=34ae3c8cdd577b3d9185ae58adf1407c.jpg:15","ps.62/9/9/c/7/picture-uh=9adaf4c236deed39b92dfe58c6111c-ps=99c7e8b764a586c711fdfa66b38153.jpg:15","ps.62/3/a/3/5/picture-uh=dca997c3297fdd4cf8a3b1a993b1a-ps=3a35484a8a5199c3d193649c7353a086.jpg:15","ps.62/d/8/7/f/picture-uh=7a5fe587462d9fe7eca7fbea02424d0-ps=d87feb65fb9d686e2993cf623f6f73.jpg:15"],"primaryMain":"ps.62/1/f/3/8/picture-uh=3076db3a484cfb4545248d8d1dc05aac-ps=1f38e7f4f1e2f85d55231c19676d5c8e.jpg","primaryThumb":null,"realtyTracURL":null,"streetView":"http://maps.googleapis.com/maps/api/streetview?client=gme-truliainc&size=600x400&sensor=false&location=34.078915%2C-118.39008&signature=tQs-upnKgoyD2bncVV9R1dS24ik="},"priceChange":{"amount":null,"hasChange":null,"hasReduction":null},"propertyHash":"adca4e9fb782d22d7c0fe04e73b664","rentalCommunity":{"amenities":null,"features":{"hasAC":null,"hasAdditionalStorage":null,"hasClubHouse":null,"hasDryer":null,"hasFitnessCenter":null,"hasMicrowave":null,"hasPool":null,"hasView":null,"hasWasher":null},"logoPartnerSolo":null,"maxFloorplanSearchBedrooms":null,"maxFloorplanSearchPrice":null,"minFloorplanSearchBedrooms":null,"minFloorplanSearchPrice":null},"saleType":null,"status":"for_sale","statusDisplay":"For Sale","statusSecondaryText":"resale","valuation":{"canDisplay":true,"price":null},"id":"3010089455"},{"actions":[],"adCampaigns":null,"address":{"allNoZip":"9520 Dalegrove Dr, Beverly Hills CA","components":{"apartmentNumber":null,"city":"Beverly Hills","cityDisplay":"Beverly Hills","county":"LOS ANGELES","countyDisplay":"Los Angeles","state":"CA","stateCode":"CA","street":"Dalegrove Dr","streetDisplay":"Dalegrove Dr","zipCode":"90210"},"delivery":"9520 Dalegrove Drive","display":"9520 Dalegrove Dr, Beverly Hills, CA 90210","isAddressDisclosed":true,"partial":"9520 Dalegrove Dr","seoDisplay":"9520 Dalegrove Drive, Beverly Hills CA","seoUrl":"9520-Dalegrove-Dr-Beverly-Hills-CA-90210","short":"9520 Dalegrove Dr"},"details":{"architecturalStyle":null,"architectureStyle":null,"bathrooms":3,"bedrooms":3,"buildingHasConcierge":null,"buildingUnitCount":null,"dateListed":null,"daysOnMarket":null,"daysOnTrulia":36,"description":"Practically a BRAND NEW home, this meticulous renovation involved stripping this home down to the studs and re-constructing from the inside out giving it a new interior footprint. All internal systems are brand new. Thoughtful Pre-wiring was done to make this a Smart Home. Picturesque and peaceful poolside canyon views, walls of glass and top of the line Pella windows and doors that swivel open in every room which brings the outside in. Vaulted ceilings add depth and drama. This home features top-of-the-line appliances: Viking fridge, range, hood and dishwasher. Perfectly book-ended Calcatta Polished kitchen counters, glass backsplash and bar counter with seating. Lots of designer touches, from self-closing drawers, to a faux finished fireplace, to a pot-filler. A dream master bathroom with wall to wall Carrera Marble and a Louvre Mosaic Steam-room shower with 3 different shower head options. Jetted bathtub, walk-in closet, Custom Finish Carpentry and endless designer finishes.A pre-wired & installed home monitoring system that is operational from your iPad is included. Lutron Lighting and security control is fully integrated into the RTi Smart Home Equipment and controlled by the iPad. Future expandability possible to control AV master systems, and mechanized blinds if desired. iPad & security & dual SONOS music systems connected to it come with house, All plans/permits submitted/approved by the city. 3rd bdrm en-suite is off the Living Room looking out towards pool - could be a perfect office.","exteriorType":null,"fees":{"amounts":null,"types":null},"floorCovering":null,"floorCoverings":null,"hasAirConditioning":null,"hasAttic":null,"hasBalcony":null,"hasBarbequeArea":null,"hasBasement":null,"hasCableSatellite":null,"hasCeilingFan":null,"hasCourtyard":null,"hasDeck":null,"hasDisabledAccess":null,"hasDishwasher":null,"hasDisposal":null,"hasDock":null,"hasDoorman":null,"hasDoublepaneWindows":null,"hasDryer":null,"hasFireplace":null,"hasGarage":null,"hasGarden":null,"hasGatedEntry":null,"hasGreenhouse":null,"hasHandrails":null,"hasHotTubSpa":null,"hasIntercom":null,"hasJettedBathTub":null,"hasLawn":null,"hasMicrowave":null,"hasMotherInLaw":null,"hasPatio":null,"hasPond":null,"hasPool":null,"hasPorch":null,"hasPrivateBalcony":null,"hasPrivatePatio":null,"hasRefrigerator":null,"hasRvParking":null,"hasSauna":null,"hasSecuritySystem":null,"hasSkylight":null,"hasSportscourt":null,"hasSprinklerSystem":null,"hasStreetview":null,"hasTerrace":null,"hasVaultedCeiling":null,"hasWasher":null,"hasWasherDryerHookup":null,"hasWetBar":null,"hasWindowCoverings":null,"heatingFuel":null,"heatingSystems":null,"isFeatured":true,"isForeclosure":false,"isFurnished":null,"isNewConstruction":null,"isNewListing":false,"isWaterFront":null,"listingType":"RESALE","lotSize":null,"lotSizeDisplay":"0.3 acres","mortgage":null,"numParkingSpaces":null,"parkingTypes":null,"partialBathrooms":null,"pets":{"all":null,"petDeposit":null,"petRent":null,"petRestriction":null,"petsAllowed":null},"planPriceFrom":null,"planPriceTo":null,"price":2085000,"propertyDef":"","propertyPronoun":"home","propertyTitle":"For Sale","propertyType":"Single-Family Home","rangeType":null,"rentalListingType":null,"roofType":null,"roomCount":null,"school":null,"securityDeposit":null,"siteName":"Teles Properties","siteUrl":"telesproperties.com","squareFootage":"2,066","viewType":null,"yearBuilt":null},"fees":{"amounts":null,"types":null},"foreclosure":{"status":null},"isActiveForRent":false,"isActiveForSale":true,"isForRent":false,"isForSale":true,"isNrt":false,"isOffMarket":false,"isSold":false,"isUnknown":false,"isWithdrawn":false,"keywords":{"list":["office","marble","walk in","range","vaulted","bathtub","designer","pella windows","vaulted ceilings","viking","walk in closet","pool","views","living room","fireplace","bar","dishwasher","custom"]},"lastSale":{"canDisplay":true,"date":null,"isRecent":false,"price":null},"leadType":"lead","listing":{"agent":{"email":"lehoa.miller@telesproperties.com","isFeatured":false,"metadata":{"created":null,"id":"16580760","links":[],"modified":null},"name":"Lehoa T. Miller","phone":"(424) 276-7587","photo":"http://static.trulia-cdn.com/userimg/user_m_00_s.gif","profileUrl":"","userId":"16580760"},"broker":{"email":"lehoa.miller@telesproperties.com","isFeatured":true,"logo":"http://logos.trulia-cdn.com/pictures/logos/listings/broker_group_75433.gif?v=20120309012012","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Teles Properties","phone":"(424) 276-7587"},"feedId":3237,"listingId":"3153519916","office":{"email":"info@telesproperties.com","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Teles Properties: Brentwood","phone":"424.203.1800"},"providerListingId":"241270","providerName":"Teles Properties","providerUrl":"/transfer.php?s_id=10928049&p_id=3132223808&t_id=fdpl1&feat=1&ptype=for_sale&plid=3153519916","siteId":null,"siteIdAlt":"10928049"},"location":{"latitude":34.11425,"longitude":-118.402336},"locationId":76159,"metadata":{"created":1398395557,"deepLink":"TruliaPDPForSale://?urlHash=aWQ9MzEzMjIyMzgwOCZpZHQ9Zm9yK3NhbGUmc3Q9Q0EmY3k9QmV2ZXJseStIaWxscw%3D%3D","id":"3132223808","links":[{"href":"/properties/for_sale/CA/3132223808","rel":"self","rel_href":"/relations/self","type":"application/json; name=property_details_for_sale"}],"modified":1401346800,"stateCode":"CA","type":"for_sale"},"modules":[{"href":"/properties/for_sale/CA/3132223808/lead","rel":"module","rel_href":"/relations/module","type":"application/json; name=lead"},{"href":"/properties/for_sale/CA/3132223808/mortgage","rel":"module","rel_href":"/relations/module","type":"application/json; name=mortgage"},{"href":"/properties/for_sale/CA/3132223808/price_history","rel":"module","rel_href":"/relations/module","type":"application/json; name=price_history"},{"href":"/properties/for_sale/CA/3132223808/public_records","rel":"module","rel_href":"/relations/module","type":"application/json; name=public_records"},{"href":"/properties/for_sale/CA/3132223808/tax","rel":"module","rel_href":"/relations/module","type":"application/json; name=tax"},{"href":"/properties/for_sale/CA/3132223808/sales_trends","rel":"module","rel_href":"/relations/module","type":"application/json; name=sales_trends"}],"neighborhood":{"metadata":{"created":null,"id":"7197","links":[],"modified":null},"name":"Beverly Hills"},"openHouses":[{"date":"Sun Jun 1","description":"Practically a BRAND NEW home, this meticulous renovation involved stripping this home down to the studs &amp; re-constructing from the inside out giving it a new interior footprint.  All internal systems are brand new.  Thoughtful Pre-wiring was done to make this a &quot;Smart Home&quot;.  Picturesque and peaceful poolside canyon views, walls of glass and top of the line Pella windows &amp; doors that swivel  open in every room which brings the outside in.","time":"2pm to 5pm"}],"pdpURL":"/property/3132223808-9520-Dalegrove-Dr-Beverly-Hills-CA-90210","photos":{"all":["ps.61/b/3/e/7/picture-uh=ed54f8bd86704cd5f15834f1a898e4e-ps=b3e71d6ada81edf069761258fdda2e1.jpg:15","ps.61/2/e/5/3/picture-uh=83ff3c1a92fca76668de3de9b57b1d4-ps=2e53f0c47c2c4ae60c2be541a7eb087.jpg:15","ps.61/e/d/7/a/picture-uh=3bf0ef3a94375f5dae4c8a82d725f0-ps=ed7a464159135db56f821d5f5b36897.jpg:15","ps.61/8/c/4/8/picture-uh=fc2cbfc09fb61878ddf2429f59d1d4-ps=8c48d2f647ee35922a39d5993bc8fdab.jpg:15","ps.61/5/d/a/3/picture-uh=5e7ba993dd2221ba7d65aabe9fd4288-ps=5da375f2bc14814e14bcf6224397e8.jpg:15","ps.61/e/7/b/3/picture-uh=ceb4798d9d6842cbc56f834c96792f-ps=e7b342426cd18f62762936f975d7fb6.jpg:15","ps.61/d/3/f/4/picture-uh=4e2c97e371451c3a19d5c4d24cd29159-ps=d3f4a94a5c94179292181a75538457.jpg:15","ps.61/5/d/8/8/picture-uh=ff6014984b1f439bfae8c0df05b8e2-ps=5d881958eaddc2abde11be466f49618.jpg:15","ps.61/a/4/c/a/picture-uh=dcf2cbceaaae59be9ecc5ac31fc94bf2-ps=a4caadb82425b929e64bec2817fdb8.jpg:15","ps.61/4/c/5/3/picture-uh=fcdde865e8f46d2c69f35bf1a681d-ps=4c53ccc083f399c0702437c353c6d49a.jpg:15","ps.61/8/d/8/5/picture-uh=9be07a3723735e9b6a7cbad7d3de34-ps=8d858a2fd42718caaad7ca5fec98737.jpg:15","ps.61/1/7/e/1/picture-uh=b728ed4f2d4d7f61ed2d9ef27fb5ea3-ps=17e18b1ceaab6f2949b8a508134c7.jpg:15","ps.61/c/f/2/e/picture-uh=a2edf9a4965f4366f648895844356-ps=cf2ec2f4b66c6e913228fe48acaa5a57.jpg:15","ps.61/9/6/1/e/picture-uh=f151f59e38f5d46c571ca529af1b221-ps=961efcca2da15e272ed3d3873d39bd9e.jpg:15","ps.61/1/0/b/7/picture-uh=362677d6d4faea58e8dca4f999f0f9-ps=10b7c1767122f333eadd4a21c8a9be8.jpg:15","ps.61/a/c/6/5/picture-uh=7c82376714b4fe663edf53e339dfb1-ps=ac65a9c2cad8858db013cfc6aefb6d25.jpg:15","ps.61/3/8/3/d/picture-uh=e8e04433e764583c587b843960c02-ps=383db487664653d2bc4b76ab33bf9.jpg:15","ps.61/a/2/b/a/picture-uh=642a31e127eb0572b2b08336a2e725-ps=a2bae95d6ab154dfa2f9ce01171283b.jpg:15","ps.61/c/5/1/1/picture-uh=ff3484debd1abed7bba59e88f49c5a-ps=c5114e72e99ac6e0c2d11c349724cbae.jpg:15","ps.61/7/9/6/5/picture-uh=10aacab4c47777cb653be2b5c05292d2-ps=7965e45d79fbf5496a4afe166a3719bb.jpg:15"],"primaryMain":"ps.61/b/3/e/7/picture-uh=ed54f8bd86704cd5f15834f1a898e4e-ps=b3e71d6ada81edf069761258fdda2e1.jpg","primaryThumb":null,"realtyTracURL":null,"streetView":"http://maps.googleapis.com/maps/api/streetview?client=gme-truliainc&size=600x400&sensor=false&location=34.11425%2C-118.402336&signature=WXjqcsnoZ0MlT13LSwS1cjk2Yko="},"priceChange":{"amount":110000,"hasChange":true,"hasReduction":true},"propertyHash":"9f3c41bacf2198b1b228a05e7f7a719","rentalCommunity":{"amenities":null,"features":{"hasAC":null,"hasAdditionalStorage":null,"hasClubHouse":null,"hasDryer":null,"hasFitnessCenter":null,"hasMicrowave":null,"hasPool":null,"hasView":null,"hasWasher":null},"logoPartnerSolo":null,"maxFloorplanSearchBedrooms":null,"maxFloorplanSearchPrice":null,"minFloorplanSearchBedrooms":null,"minFloorplanSearchPrice":null},"saleType":null,"status":"for_sale","statusDisplay":"For Sale","statusSecondaryText":"resale","valuation":{"canDisplay":true,"price":null},"id":"3132223808"},{"actions":[],"adCampaigns":null,"address":{"allNoZip":"2400 Benedict Canyon Dr, Beverly Hills CA","components":{"apartmentNumber":null,"city":"Beverly Hills","cityDisplay":"Beverly Hills","county":"LOS ANGELES","countyDisplay":"Los Angeles","state":"CA","stateCode":"CA","street":"Benedict Canyon Dr","streetDisplay":"Benedict Canyon Dr","zipCode":"90210"},"delivery":"2400 Benedict Canyon Drive","display":"2400 Benedict Canyon Dr, Beverly Hills, CA 90210","isAddressDisclosed":true,"partial":"2400 Benedict Canyon Dr","seoDisplay":"2400 Benedict Canyon Drive, Beverly Hills CA","seoUrl":"2400-Benedict-Canyon-Dr-Beverly-Hills-CA-90210","short":"2400 Benedict Canyon Dr"},"details":{"architecturalStyle":null,"architectureStyle":"English","bathrooms":4,"bedrooms":6,"buildingHasConcierge":null,"buildingUnitCount":null,"dateListed":"2014-03-31","daysOnMarket":"More than 30 days","daysOnTrulia":60,"description":"Behind Iron gates atop a several hundred foot drive sits this peaceful Country English Estate. Surrounded by rolling acres that inspire wishful thoughts of never leaving. Double gated. Secure. Unmatched.","exteriorType":null,"fees":{"amounts":null,"types":null},"floorCovering":null,"floorCoverings":null,"hasAirConditioning":null,"hasAttic":null,"hasBalcony":null,"hasBarbequeArea":null,"hasBasement":null,"hasCableSatellite":null,"hasCeilingFan":null,"hasCourtyard":null,"hasDeck":null,"hasDisabledAccess":null,"hasDishwasher":null,"hasDisposal":null,"hasDock":null,"hasDoorman":null,"hasDoublepaneWindows":null,"hasDryer":null,"hasFireplace":true,"hasGarage":null,"hasGarden":null,"hasGatedEntry":null,"hasGreenhouse":null,"hasHandrails":null,"hasHotTubSpa":null,"hasIntercom":null,"hasJettedBathTub":null,"hasLawn":null,"hasMicrowave":null,"hasMotherInLaw":null,"hasPatio":null,"hasPond":null,"hasPool":null,"hasPorch":null,"hasPrivateBalcony":null,"hasPrivatePatio":null,"hasRefrigerator":null,"hasRvParking":null,"hasSauna":null,"hasSecuritySystem":null,"hasSkylight":null,"hasSportscourt":null,"hasSprinklerSystem":null,"hasStreetview":null,"hasTerrace":null,"hasVaultedCeiling":null,"hasWasher":null,"hasWasherDryerHookup":null,"hasWetBar":null,"hasWindowCoverings":null,"heatingFuel":null,"heatingSystems":null,"isFeatured":true,"isForeclosure":false,"isFurnished":null,"isNewConstruction":null,"isNewListing":false,"isWaterFront":null,"listingType":"RESALE","lotSize":null,"lotSizeDisplay":null,"mortgage":null,"numParkingSpaces":null,"parkingTypes":null,"partialBathrooms":0,"pets":{"all":null,"petDeposit":null,"petRent":null,"petRestriction":null,"petsAllowed":null},"planPriceFrom":null,"planPriceTo":null,"price":2295000,"propertyDef":"","propertyPronoun":"home","propertyTitle":"For Sale","propertyType":"Single-Family Home","rangeType":null,"rentalListingType":null,"roofType":null,"roomCount":null,"school":null,"securityDeposit":null,"siteName":"californiamoves.com","siteUrl":"www.californiamoves.com","squareFootage":"4,172","viewType":null,"yearBuilt":1936},"fees":{"amounts":null,"types":null},"foreclosure":{"status":null},"isActiveForRent":false,"isActiveForSale":true,"isForRent":false,"isForSale":true,"isNrt":true,"isOffMarket":false,"isSold":false,"isUnknown":false,"isWithdrawn":false,"keywords":{"list":["gated","acres","country"]},"lastSale":{"canDisplay":true,"date":null,"isRecent":false,"price":null},"leadType":"lead","listing":{"agent":{"email":"John.Williams@coldwellbanker.com","isFeatured":false,"metadata":{"created":null,"id":"1926107","links":[],"modified":null},"name":"John Williams","phone":"310-779-1391","photo":"http://static.trulia-cdn.com/userimg/7704/1926107_1302474525_s.jpg","profileUrl":"/profile/john-williams-agent-beverly-hills-ca-1926107/","userId":"1926107"},"broker":{"email":"John.Williams@coldwellbanker.com","isFeatured":true,"logo":"http://logos.trulia-cdn.com/pictures/logos/listings/10338446.gif?v=20130416152012","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Coldwell Banker Residential Brokerage","phone":"(310) 777-6200"},"feedId":1004,"listingId":"3150802430","office":{"email":"900624.lead@cendant.leadrouter.com","metadata":{"created":null,"id":null,"links":[],"modified":null},"name":"Beverly Hills North","phone":"3107776200"},"providerListingId":"3614390","providerName":"californiamoves.com","providerUrl":"/transfer.php?s_id=10338446&p_id=3099361686&t_id=fdpl1&feat=1&ptype=for_sale&plid=3150802430","siteId":null,"siteIdAlt":"10338446"},"location":{"latitude":34.11351,"longitude":-118.43403},"locationId":76159,"metadata":{"created":1396408265,"deepLink":"TruliaPDPForSale://?urlHash=aWQ9MzA5OTM2MTY4NiZpZHQ9Zm9yK3NhbGUmc3Q9Q0EmY3k9QmV2ZXJseStIaWxscw%3D%3D","id":"3099361686","links":[{"href":"/properties/for_sale/CA/3099361686","rel":"self","rel_href":"/relations/self","type":"application/json; name=property_details_for_sale"}],"modified":1399359600,"stateCode":"CA","type":"for_sale"},"modules":[{"href":"/properties/for_sale/CA/3099361686/lead","rel":"module","rel_href":"/relations/module","type":"application/json; name=lead"},{"href":"/properties/for_sale/CA/3099361686/mortgage","rel":"module","rel_href":"/relations/module","type":"application/json; name=mortgage"},{"href":"/properties/for_sale/CA/3099361686/price_history","rel":"module","rel_href":"/relations/module","type":"application/json; name=price_history"},{"href":"/properties/for_sale/CA/3099361686/public_records","rel":"module","rel_href":"/relations/module","type":"application/json; name=public_records"},{"href":"/properties/for_sale/CA/3099361686/tax","rel":"module","rel_href":"/relations/module","type":"application/json; name=tax"},{"href":"/properties/for_sale/CA/3099361686/sales_trends","rel":"module","rel_href":"/relations/module","type":"application/json; name=sales_trends"}],"neighborhood":{"metadata":{"created":null,"id":"7197","links":[],"modified":null},"name":"Beverly Hills"},"openHouses":[{"date":"Sun Jun 1","description":"Behind Iron gates atop a several hundred foot drive sits this peaceful Country English Estate. Surrounded by rolling acres that inspire wishful thoughts of never leaving. Double gated. Secure. Unmatched.","time":"2pm to 5pm"}],"pdpURL":"/property/3099361686-2400-Benedict-Canyon-Dr-Beverly-Hills-CA-90210","photos":{"all":["ps.61/d/0/d/6/picture-uh=92203482ca6c6969858b26df70b2c819-ps=d0d653728082943e35f87f5d22d32.jpg:15","ps.62/1/a/1/6/picture-uh=6be2846d31898f2f378f45edaa87a112-ps=1a1695ba9591681e1f6448e05376ce5.jpg:15","ps.61/7/2/6/b/picture-uh=93f1fe711548fc30b374370515e4bb2-ps=726b3dbfe8326433497b349a2edd634c.jpg:15","ps.62/2/4/0/b/picture-uh=971ddc144d61aeef3ee7fc0b75f315-ps=240b7573bb122bd83488074b71f4b10.jpg:15","ps.62/5/b/8/b/picture-uh=7f168e5e34d5d51174af6cd2e31d9355-ps=5b8bb6eca2ccff268b7dc4d2a76969d.jpg:15","ps.62/1/a/8/b/picture-uh=8b12e4c794c657cd6d578a724ee23a8-ps=1a8b5f7f49991eca558a1bc6e5aa437.jpg:15","ps.61/f/5/b/4/picture-uh=932845f1a1f1ca5f9a667fddfb439025-ps=f5b42a5cafe946e7e2ad34e3dff6f36.jpg:15","ps.61/5/5/5/9/picture-uh=9b6e5b3fbd5e3aaa613b8a23e7487db-ps=5559df5c9ac6e3fc861f1fcdf7ca0d4.jpg:15","ps.61/6/1/5/b/picture-uh=52424e1d4b7fb0ee987a24285e68254c-ps=615bc9f77eb5dc59ada37f968893d1c.jpg:15","ps.61/a/d/f/4/picture-uh=37ed6853c7f6c3ab1a150ca8ebb7cf-ps=adf4d018eff313a4b9bd4c8a3d6a9a52.jpg:15","ps.61/2/b/4/0/picture-uh=c28f2450141fb9fb57c6a3c5bf12baec-ps=2b409161355f32f3c7cbc789f5688f0.jpg:15","ps.61/f/3/6/2/picture-uh=4ef4dfbbc88bdb7760df4db3241194ca-ps=f362d8569cd79fc4b201be7162da9a.jpg:15"],"primaryMain":"ps.61/d/0/d/6/picture-uh=92203482ca6c6969858b26df70b2c819-ps=d0d653728082943e35f87f5d22d32.jpg","primaryThumb":null,"realtyTracURL":null,"streetView":"http://maps.googleapis.com/maps/api/streetview?client=gme-truliainc&size=600x400&sensor=false&location=34.11351%2C-118.43403&signature=d7VL1TwAwo-IJDASIJ_rm3kc488="},"priceChange":{"amount":null,"hasChange":null,"hasReduction":null},"propertyHash":"2bdac476bfc1d07ca33e2288889bdcd","rentalCommunity":{"amenities":null,"features":{"hasAC":null,"hasAdditionalStorage":null,"hasClubHouse":null,"hasDryer":null,"hasFitnessCenter":null,"hasMicrowave":null,"hasPool":null,"hasView":null,"hasWasher":null},"logoPartnerSolo":null,"maxFloorplanSearchBedrooms":null,"maxFloorplanSearchPrice":null,"minFloorplanSearchBedrooms":null,"minFloorplanSearchPrice":null},"saleType":null,"status":"for_sale","statusDisplay":"For Sale","statusSecondaryText":"resale","valuation":{"canDisplay":true,"price":null},"id":"3099361686"}]}};
+    </script>
+    <script data-main="/js/main" src="http://static.trulia-cdn.com/javascript/beaker/common.8a47d4dae9a83163427e67f5f3c72cda.js"></script>
+    <!-- 704e83d beakerstage -->
+  </body>
+</html>
