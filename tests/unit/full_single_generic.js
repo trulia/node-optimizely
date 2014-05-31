@@ -1,7 +1,7 @@
 var test  = require('tap').test
   , fs    = require('fs')
   , path  = require('path')
-  , Optly = require('../../index.js')
+  , optly = require('../../index.js')
 
     // get fixtures
   , req = require('../fixture/request/generic.json')
@@ -12,7 +12,7 @@ var test  = require('tap').test
 // test jsdom
 test('jsdom', function(t)
 {
-  var optimizely = Optly('jsdom');
+  var optimizely = optly('jsdom');
 
   runTests(t, optimizely);
 });
@@ -20,7 +20,7 @@ test('jsdom', function(t)
 // test node_vm
 test('node_vm', function(t)
 {
-  var optimizely = Optly('node_vm');
+  var optimizely = optly('node_vm');
 
   runTests(t, optimizely);
 });

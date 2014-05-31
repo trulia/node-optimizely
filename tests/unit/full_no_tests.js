@@ -2,7 +2,7 @@ var test  = require('tap').test
   , fs    = require('fs')
   , path  = require('path')
   , glob  = require('glob')
-  , Optly = require('../../index.js')
+  , optly = require('../../index.js')
 
     // get fixtures
   , req = require('../fixture/request/generic.json')
@@ -18,17 +18,17 @@ glob.sync('*.html', {cwd: htmlDir}).forEach(function(f)
 });
 
 // test jsdom
-// test('jsdom', function(t)
-// {
-//   var optimizely = Optly('jsdom');
-//
-//   runExperiments(t, optimizely);
-// });
+test('jsdom', function(t)
+{
+  var optimizely = optly('jsdom');
+
+  runExperiments(t, optimizely);
+});
 
 // test node_vm
 test('node_vm', function(t)
 {
-  var optimizely = Optly('node_vm');
+  var optimizely = optly('node_vm');
 
   runExperiments(t, optimizely);
 });
