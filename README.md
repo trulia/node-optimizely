@@ -1,4 +1,4 @@
-# node-optimizely [![Build Status](https://travis-ci.org/alexindigo/node-optimizely.svg?branch=master)](https://travis-ci.org/alexindigo/node-optimizely)
+# Optimizely [![Build Status](https://travis-ci.org/alexindigo/node-optimizely.svg?branch=master)](https://travis-ci.org/alexindigo/node-optimizely) [![Dependency Status](https://gemnasium.com/alexindigo/node-optimizely.svg)](https://gemnasium.com/alexindigo/node-optimizely)
 
 Runs optimizely experiments in node using either jsdom (slow & stable) or cheerio+node-vm (young blood)
 
