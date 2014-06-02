@@ -1,6 +1,6 @@
 {
   "name": "optimizely",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Runs optimizely experiments in node using either jsdom or cherio + native node-vm",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/alexindigo/node-optimizely",
   "dependencies": {
     "jsdom": "^0.10.5",
-    "oven": "alexindigo/oven",
+    "oven": "^0.0.6",
     "cheerio": "^0.16.0"
   },
   "devDependencies": {
