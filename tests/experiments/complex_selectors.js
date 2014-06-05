@@ -1,0 +1,15 @@
+$(".resultsRow > div:eq(1) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(2) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(3) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(5) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(6) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(7) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(8) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(9) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(10) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(11) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(12) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(13) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(14) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(15) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});
+$(".resultsRow > div:eq(16) > div:eq(0) > a:eq(0) > div:eq(0) > div:eq(2) > div:eq(1) > i:eq(0)").css({"display":"none", "visibility":""});

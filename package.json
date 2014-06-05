@@ -1,6 +1,6 @@
 {
   "name": "optimizely",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Runs optimizely experiments in node using either jsdom or cherio + native node-vm",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "optimizely",
-    "jsdom",
+    "dom",
+    "jquery",
     "a/b",
     "testing"
   ],

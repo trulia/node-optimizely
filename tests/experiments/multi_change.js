@@ -1,0 +1,12 @@
+$("#module_top_1 .roundPic").attr({"src":"//cdn.optimizely.com/img/698392373/05e1f329825c4862a37e1d53bc86be22.png"});
+$("#module_top_1 .activeLink").html("Want to win $50K?");
+$("#module_top_1 .activeLink").attr({"href":"http://win.trulia.com", "target":"_blank"});
+$("#module_top_1 > .typeEmphasize > a:eq(0)").html("Enter Now");
+$("#module_top_1 > .typeEmphasize > a:eq(0)").attr({"href":"http://win.trulia.com", "target":"_blank"});
+$("#module_top_1 > .h5").html("Enter for a chance to win $50,000 to use toward a down payment or any other home expenses.");
+$("#module_top_1 .activeLink").replaceWith("<a href=\"http://win.trulia.com\" title=\"Enter Now\" class=\"activeLink\" target=\"_blank\">Want to win $50K?</a>");
+$("#module_top_1 > p:eq(1) > a:eq(0)").replaceWith("<a href=\"/rent_vs_buy/\" title=\"Enter Now\"><img class=\"roundPic\" src=\"//cdn.optimizely.com/img/698392373/05e1f329825c4862a37e1d53bc86be22.png\"></a>");
+$("#module_top_1 > .typeEmphasize > a:eq(0)").replaceWith("<a href=\"http://win.trulia.com\" title=\"Enter Now\" target=\"_blank\">Enter Now</a>");
+$("#module_top_1 > .typeEmphasize > a:eq(0)").html("Enter Meow");
+$("#module_top_1 > .typeEmphasize > a:eq(0)").html("Enter Now");
+$("#module_top_1 > p:eq(1) > a:eq(0)").attr({"href":"http://win.trulia.com", "target":"_blank"});

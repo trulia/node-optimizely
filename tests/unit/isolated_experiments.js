@@ -6,11 +6,11 @@ var test  = require('tap').test
 
     // get fixtures
   , req = require('../fixture/request/generic.json')
-  , originalHtml = fs.readFileSync(path.join(__dirname, '../fixture/html/simple.html'), 'utf8')
+  , genericHtml = fs.readFileSync(path.join(__dirname, '../fixture/html/simple.html'), 'utf8')
 
   , experimentsDir = path.join(__dirname, '../experiments')
   , experiments = {}
-  , expected = {}
+  , htmls = {}
   ;
 
 // get experiments
@@ -21,7 +21,7 @@ glob.sync('*.js', {cwd: experimentsDir}).forEach(function(f)
 
 glob.sync('*.html', {cwd: experimentsDir}).forEach(function(f)
 {
-  expected[path.basename(f, '.html')] = fs.readFileSync(path.join(experimentsDir, f), 'utf8');
+  htmls[path.basename(f, '.html')] = fs.readFileSync(path.join(experimentsDir, f), 'utf8');
 });
 
 // test jsdom
@@ -48,11 +48,11 @@ function runExperiments(t, optimizely)
     // prepare isolated experiments code
     var code = 'optimizelyCode = function() {\n' + experiments[name] + '\n};\noptimizelyCode();\n';
 
-    optimizely.setOptimizely(code);
-
     // run it as subtest
     t.test('isolated '+name, function(t)
     {
+      optimizely.setOptimizely(code);
+
       runTests(name, t, optimizely);
     });
   });
@@ -64,13 +64,14 @@ function runTests(name, t, optimizely)
   // planning tests
   t.plan(2);
 
-  // run the thing
-  optimizely(req, originalHtml, function(err, html)
+  // run the thing, with custom input html or use generic one
+  optimizely(req, (htmls[name+'.input'] || genericHtml), function(err, html)
   {
     t.equal(err, null);
 
-    // check updated content, whitespace doesn't matter
-    t.equal(html.trim(), expected[name].trim());
+    // check updated content, trailing whitespace doesn't matter
+    // check for same name html (as a shortcut) or fallback to .output.html
+    t.equal(html.trim(), (htmls[name] || htmls[name+'.output']).trim());
   });
 
 }
