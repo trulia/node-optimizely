@@ -31,7 +31,6 @@ optimizely.setOptimizely(optimizelyCode);
 
 ```
 // req - http request
-// res - http response
 // callback – return path out of this middleware
 
 var originalHtml = getFinalHtmlBeforeResponse();
@@ -74,5 +73,4 @@ list of images passed to callback (`extras.images`) instead of modifying html in
 ## TODO
 
 - More tests
-- Contextify
 - Autoload of optimizely code

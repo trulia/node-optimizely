@@ -1,7 +1,7 @@
 {
   "name": "optimizely",
-  "version": "0.1.5",
-  "description": "Runs optimizely experiments in node using either jsdom or cherio + native node-vm",
+  "version": "0.1.6",
+  "description": "Runs optimizely experiments in node using either jsdom or cheerio + native node-vm",
   "main": "index.js",
   "scripts": {
     "test": "tap ./tests/unit"
@@ -26,7 +26,7 @@
   "dependencies": {
     "jsdom": "^0.10.5",
     "oven": "^0.0.6",
-    "cheerio": "^0.16.0"
+    "cheerio": "^0.17.0"
   },
   "devDependencies": {
     "tap": "^0.4.9",
