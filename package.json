@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/alexindigo/node-optimizely",
   "dependencies": {
-    "jsdom": "^0.10.5",
+    "jsdom": "^0.11.1",
     "oven": "^0.0.6",
     "cheerio": "^0.17.0"
   },
