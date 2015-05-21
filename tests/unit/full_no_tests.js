@@ -18,12 +18,18 @@ glob.sync('*.html', {cwd: htmlDir}).forEach(function(f)
 });
 
 // test jsdom
-// test('jsdom', function(t)
-// {
-//   var optimizely = optly('jsdom');
-//
-//   runExperiments(t, optimizely);
-// });
+// test jsdom, but in node-0.10 only
+// maybe it will be better when io.js
+// will merge with node.js, or worse
+if (process.version.match(/^v0\.10/))
+{
+  test('jsdom', function(t)
+  {
+    var optimizely = optly('jsdom');
+
+    runExperiments(t, optimizely);
+  });
+}
 
 // test node_vm
 test('node_vm', function(t)
