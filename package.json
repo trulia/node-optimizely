@@ -1,6 +1,6 @@
 {
   "name": "optimizely",
-  "version": "0.1.7",
+  "version": "1.0.0",
   "description": "Runs optimizely experiments in node using either jsdom or cheerio + native node-vm",
   "main": "index.js",
   "scripts": {
@@ -8,25 +8,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/alexindigo/node-optimizely.git"
+    "url": "git://github.com/trulia/node-optimizely.git"
   },
   "keywords": [
     "optimizely",
     "dom",
     "jquery",
     "a/b",
-    "testing"
+    "testing",
+    "isomorphic"
   ],
-  "author": "Alex Indigo <iam@alexindigo.com>",
+  "author": "Alex Ivashchenko <alexi@trulia.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexindigo/node-optimizely/issues"
+    "url": "https://github.com/trulia/node-optimizely/issues"
   },
-  "homepage": "https://github.com/alexindigo/node-optimizely",
+  "homepage": "https://github.com/trulia/node-optimizely",
   "dependencies": {
-    "jsdom": "^0.11.1",
-    "oven": "^0.0.6",
-    "cheerio": "^0.17.0"
+    "jsdom": "0.11.1",
+    "oven": "0.0.6",
+    "cheerio": "0.17.0"
   },
   "devDependencies": {
     "tap": "^0.4.9",

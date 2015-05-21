@@ -24,13 +24,18 @@ glob.sync('*.html', {cwd: experimentsDir}).forEach(function(f)
   htmls[path.basename(f, '.html')] = fs.readFileSync(path.join(experimentsDir, f), 'utf8');
 });
 
-// test jsdom
-test('jsdom', function(t)
+// test jsdom, but in node-0.10 only
+// maybe it will be better when io.js
+// will merge with node.js, or worse
+if (process.version.match(/^v0\.10/))
 {
-  var optimizely = optly('jsdom');
+  test('jsdom', function(t)
+  {
+    var optimizely = optly('jsdom');
 
-  runExperiments(t, optimizely);
-});
+    runExperiments(t, optimizely);
+  });
+}
 
 // test node_vm
 test('node_vm', function(t)
