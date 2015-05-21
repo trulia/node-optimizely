@@ -1,4 +1,4 @@
-# Optimizely [![Build Status](https://travis-ci.org/trulia/node-optimizely.svg?branch=master)](https://travis-ci.org/alexindigo/node-optimizely)
+# Optimizely [![Build Status](https://travis-ci.org/trulia/node-optimizely.svg?branch=master)](https://travis-ci.org/trulia/node-optimizely)
 
 Runs optimizely experiments in node using either jsdom (node-0.10 only, full-featured, resource-hungry) or cheerio+node-vm (0.10 and 0.12, simple, lightweight)
 
