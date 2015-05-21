@@ -10,12 +10,12 @@ var test  = require('tap').test
   ;
 
 // test jsdom
-test('jsdom', function(t)
-{
-  var optimizely = optly('jsdom');
-
-  runTests(t, optimizely);
-});
+// test('jsdom', function(t)
+// {
+//   var optimizely = optly('jsdom');
+//
+//   runTests(t, optimizely);
+// });
 
 // test node_vm
 test('node_vm', function(t)

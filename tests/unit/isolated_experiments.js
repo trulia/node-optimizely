@@ -25,12 +25,12 @@ glob.sync('*.html', {cwd: experimentsDir}).forEach(function(f)
 });
 
 // test jsdom
-test('jsdom', function(t)
-{
-  var optimizely = optly('jsdom');
-
-  runExperiments(t, optimizely);
-});
+// test('jsdom', function(t)
+// {
+//   var optimizely = optly('jsdom');
+//
+//   runExperiments(t, optimizely);
+// });
 
 // test node_vm
 test('node_vm', function(t)
